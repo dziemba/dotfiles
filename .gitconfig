@@ -5,6 +5,7 @@
 [push]
   default = simple
 
-[aliases]
+[alias]
   st = status
+  co = checkout
 
