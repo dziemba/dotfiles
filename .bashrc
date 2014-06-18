@@ -4,4 +4,5 @@ export GOPATH="$HOME/Dropbox/Dev/Go"
 
 alias dropbox="cd $HOME/Dropbox"
 alias dev="cd $HOME/Dropbox/Dev"
+alias godev="cd $GOPATH/src/github.com/dziemba"
 
