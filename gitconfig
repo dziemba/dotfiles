@@ -1,11 +1,11 @@
 [user]
-	name = Niko Dziemba
-  email = niko@dziemba.com
+name = Niko Dziemba
+email = niko@dziemba.com
 
 [push]
-  default = simple
+default = simple
 
 [alias]
-  st = status
-  co = checkout
+st = status
+co = checkout
 
