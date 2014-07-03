@@ -5,6 +5,8 @@ export GOPATH="$HOME/Dropbox/Dev/Go"
 export CLICOLOR=1
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd" 
 
+export EDITOR="vim"
+
 alias l="ls -alh"
 
 alias dropbox="cd $HOME/Dropbox"
