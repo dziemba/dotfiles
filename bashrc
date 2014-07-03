@@ -13,3 +13,5 @@ alias dropbox="cd $HOME/Dropbox"
 alias dev="cd $HOME/Dropbox/Dev"
 alias godev="cd $GOPATH/src/github.com/dziemba"
 
+alias scan="scanimage --mode Color --resolution 300 |convert - Scan$(date +%s).jpg"
+
