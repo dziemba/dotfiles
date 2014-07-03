@@ -3,7 +3,13 @@
 cd $HOME
 ln -sf .dotfiles/bashrc .bashrc
 ln -sf .dotfiles/bashrc .bash_profile
+
 rm -rf .vim
 ln -sf .dotfiles/vim .vim
 ln -sf .dotfiles/vimrc .vimrc
+
 ln -sf .dotfiles/gitconfig .gitconfig
+
+mkdir -p .atom
+ln -sf ../.dotfiles/atom/config.cson .atom/config.cson
+

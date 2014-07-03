@@ -1,0 +1,22 @@
+'welcome':
+  'showOnStartup': false
+'editor':
+  'fontSize': 12
+  'preferredLineLength': 100
+  'tabLength': 4
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'atom-dark-syntax'
+  ]
+  'disabledPackages': [
+    'metrics'
+  ]
+  'useReactEditor': true
+'go-plus':
+  'goPath': '$HOME/Dropbox/Dev/Go'
+  'goExecutablePath': '/usr/local/bin/go'
+  'gofmtPath': '/usr/local/bin/gofmt'
+  'syntaxCheckOnSave': true
+'exception-reporting':
+  'userId': 'f6b60df7-4c19-b23a-3330-f8ba10eaac0c'
