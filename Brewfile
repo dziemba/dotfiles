@@ -42,3 +42,6 @@ cask install transmission
 cask install keka
 cask install torbrowser
 
+cask cleanup
+cleanup
+
