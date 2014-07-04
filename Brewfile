@@ -24,3 +24,21 @@ install wine
 
 doctor
 
+tap caskroom/cask
+install brew-cask
+
+cask install google-chrome
+cask install iterm2
+cask install atom
+cask install virtualbox
+cask install spotify
+cask install dropbox
+cask install keepassx
+cask install libreoffice
+cask install vlc
+cask install mactex
+cask install vagrant
+cask install transmission
+cask install keka
+cask install torbrowser
+

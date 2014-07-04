@@ -1,5 +1,10 @@
 # My dotfiles
 
-1. `git clone git@github.com:dziemba/dotfiles ~/.dotfiles` 
-2. `~/.dotfiles/install.sh` 
+```
+xcode-select --install
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+git clone git@github.com:dziemba/dotfiles.git ~/.dotfiles
+~/.dotfiles/install.sh
+```
 
