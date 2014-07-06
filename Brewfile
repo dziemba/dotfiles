@@ -1,6 +1,8 @@
 update
 
+install coreutils
 install git
+install gnu-sed
 install go
 install htop-osx
 install imagemagick
