@@ -12,6 +12,7 @@ install nmap
 install node
 install openssl
 install openvpn
+install pngcrush
 install rbenv
 install rdesktop
 install rename
