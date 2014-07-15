@@ -3,7 +3,6 @@
 'editor':
   'fontSize': 12
   'preferredLineLength': 100
-  'tabLength': 4
 'core':
   'themes': [
     'atom-dark-ui'
