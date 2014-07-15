@@ -1,6 +1,7 @@
 export PS1="\u@\h:\w$ "
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export GOPATH="$HOME/Dropbox/Dev/Go"
+export ATOM_PATH="$HOME/Applications"
 
 export CLICOLOR=1
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd" 
