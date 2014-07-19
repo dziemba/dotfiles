@@ -44,6 +44,7 @@ cask install vagrant
 cask install transmission
 cask install keka
 cask install torbrowser
+cask install github
 
 cask cleanup
 cleanup
