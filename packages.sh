@@ -64,6 +64,7 @@ apm install file-icons
 apm install linter
 apm install linter-ruby
 apm install linter-jshint
+apm install merge-conflicts
 
 apm upgrade 
 
