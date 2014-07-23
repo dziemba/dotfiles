@@ -60,6 +60,7 @@ brew cask cleanup
 # Atom Packages
 apm install go-plus
 apm install autocomplete-plus
+apm install file-icons
 
 apm upgrade 
 
