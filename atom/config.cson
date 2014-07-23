@@ -19,3 +19,6 @@
   'syntaxCheckOnSave': true
 'exception-reporting':
   'userId': 'f6b60df7-4c19-b23a-3330-f8ba10eaac0c'
+'autocomplete-plus':
+  'autoActivationDelay': 200
+  'includeCompletionsFromAllBuffers': true

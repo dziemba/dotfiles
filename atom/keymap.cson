@@ -1,3 +1,7 @@
 'body':
   'shift-help': 'core:paste'
   'shift-delete': 'core:cut'
+
+'.autocomplete-plus input.hidden-input':
+  'enter': 'autocomplete-plus:confirm'
+
