@@ -8,4 +8,5 @@ ln -sf .dotfiles/vimrc .vimrc
 
 mkdir -p .atom
 ln -sf ../.dotfiles/atom/config.cson .atom/config.cson
+ln -sf ../.dotfiles/atom/keymap.cson .atom/keymap.cson
 
