@@ -1,5 +1,6 @@
 #/bin/bash -e
 
+# Brew
 brew update
 
 brew install coreutils
@@ -31,9 +32,10 @@ brew install wget
 brew install wine
 
 brew upgrade
-
 brew doctor
+brew cleanup
 
+# Brew Cask
 brew tap caskroom/cask
 brew install brew-cask
 
@@ -54,7 +56,20 @@ brew cask install torbrowser
 brew cask install github
 
 brew cask cleanup
-brew cleanup
 
+# Atom Packages
 apm install go-plus
+
+# Node Packages
+npm install -g uglify-js
+npm install -g less
+
+# Ruby Packages (with executables only, use bundler otherwise!)
+gem install bundler
+gem install rails
+gem install rake
+gem install thor
+gem install rerun
+
+gem update
 
