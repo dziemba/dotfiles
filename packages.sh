@@ -65,8 +65,6 @@ apm install linter
 apm install linter-ruby
 apm install linter-jshint
 apm install merge-conflicts
-apm install minimap
-apm install minimap-git-diff
 apm install script
 
 apm upgrade 
