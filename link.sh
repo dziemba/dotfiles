@@ -3,6 +3,7 @@
 cd $HOME
 ln -sf .dotfiles/bashrc .bashrc
 ln -sf .dotfiles/bashrc .bash_profile
+ln -sf .dotfiles/gemrc .gemrc
 ln -sf .dotfiles/gitconfig .gitconfig
 ln -sf .dotfiles/vimrc .vimrc
 
