@@ -4,15 +4,15 @@
   'fontSize': 12
   'preferredLineLength': 100
 'core':
-  'themes': [
-    'atom-dark-ui'
-    'atom-dark-syntax'
-  ]
   'disabledPackages': [
     'metrics'
     'language-ruby-on-rails'
   ]
   'useReactEditor': true
+  'themes': [
+    'atom-dark-ui'
+    'base16-tomorrow-dark-theme'
+  ]
 'go-plus':
   'goPath': '$HOME/Dropbox/Dev/Go'
   'goExecutablePath': '/usr/local/bin/go'
