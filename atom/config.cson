@@ -10,6 +10,7 @@
   ]
   'disabledPackages': [
     'metrics'
+    'language-ruby-on-rails'
   ]
   'useReactEditor': true
 'go-plus':
@@ -22,3 +23,5 @@
 'autocomplete-plus':
   'autoActivationDelay': 200
   'includeCompletionsFromAllBuffers': true
+'linter-ruby':
+  'rubyExecutablePath': '/usr/local/bin'
