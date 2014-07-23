@@ -60,9 +60,14 @@ brew cask cleanup
 # Atom Packages
 apm install go-plus
 
+apm upgrade 
+
 # Node Packages
 npm install -g uglify-js
 npm install -g less
+npm install -g jshint
+
+npm update -g
 
 # Ruby Packages (with executables only, use bundler otherwise!)
 gem install bundler
