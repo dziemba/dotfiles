@@ -24,7 +24,7 @@ set nu
 set nobackup
 set noswapfile
 
-set cc=80
+set cc=100
 hi ColorColumn ctermbg=darkgray
 hi LineNr ctermfg=darkgray
 
