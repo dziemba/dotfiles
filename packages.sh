@@ -63,6 +63,7 @@ apm install autocomplete-plus
 apm install file-icons
 apm install linter
 apm install linter-ruby
+apm install linter-jshint
 
 apm upgrade 
 
