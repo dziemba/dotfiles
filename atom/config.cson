@@ -7,6 +7,19 @@
   'disabledPackages': [
     'metrics'
     'language-ruby-on-rails'
+    'welcome'
+    'update-package-dependencies'
+    'symbols-view'
+    'styleguide'
+    'snippets'
+    'release-notes'
+    'package-generator'
+    'feedback'
+    'exception-reporting'
+    'dev-live-reload'
+    'deprecation-cop'
+    'autosave'
+    'autocomplete'
   ]
   'useReactEditor': true
   'themes': [
@@ -18,8 +31,6 @@
   'goExecutablePath': '/usr/local/bin/go'
   'gofmtPath': '/usr/local/bin/gofmt'
   'syntaxCheckOnSave': true
-'exception-reporting':
-  'userId': 'f6b60df7-4c19-b23a-3330-f8ba10eaac0c'
 'autocomplete-plus':
   'autoActivationDelay': 200
   'includeCompletionsFromAllBuffers': true
