@@ -25,3 +25,5 @@
   'includeCompletionsFromAllBuffers': true
 'linter-ruby':
   'rubyExecutablePath': '/usr/local/bin'
+'minimap':
+  'autoToggle': true
