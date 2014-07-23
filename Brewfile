@@ -1,7 +1,10 @@
 update
 
 install coreutils
+install findutils
 install git
+install hub
+install gist
 install gnu-sed
 install go
 install htop-osx
@@ -24,6 +27,8 @@ install vim
 install watch
 install wget
 install wine
+
+upgrade
 
 doctor
 
