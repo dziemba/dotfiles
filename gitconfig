@@ -2,6 +2,9 @@
 name = Niko Dziemba
 email = niko@dziemba.com
 
+[github]
+user = dziemba
+
 [push]
 default = simple
 
