@@ -67,7 +67,7 @@ apm install linter-jshint
 apm install merge-conflicts
 apm install script
 
-apm upgrade 
+apm upgrade -c false
 
 # Node Packages
 npm install -g uglify-js
