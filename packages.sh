@@ -6,6 +6,7 @@ brew upgrade
 
 brew install coreutils
 brew install findutils
+brew install bash-completion
 brew install git
 brew install hub
 brew install gist

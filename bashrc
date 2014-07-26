@@ -2,6 +2,8 @@ export PS1="\u@\h:\w$ "
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:/usr/bin:/bin:/usr/sbin:/sbin
 unset HISTFILE
 
+[ -e /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
 export EDITOR="vim"
 export CLICOLOR=1
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd" 
