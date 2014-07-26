@@ -2,6 +2,7 @@
 
 # Brew
 brew update
+brew upgrade
 
 brew install coreutils
 brew install findutils
@@ -31,7 +32,6 @@ brew install watch
 brew install wget
 brew install wine
 
-brew upgrade
 brew doctor
 brew cleanup
 
