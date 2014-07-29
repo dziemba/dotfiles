@@ -57,6 +57,7 @@ brew cask install torbrowser
 brew cask install github
 brew cask install pdftk
 brew cask install beatport-pro
+brew cask install rekordbox
 
 brew cask cleanup
 
