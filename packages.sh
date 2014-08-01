@@ -32,6 +32,7 @@ brew install vim
 brew install watch
 brew install wget
 brew install wine
+brew install postgresql
 
 brew doctor
 brew cleanup
@@ -87,6 +88,12 @@ gem install rails
 gem install rake
 gem install thor
 gem install rerun
+gem install launchy
 
 gem update
+
+# Postinstall
+lunchy install /usr/local/opt/postgresql/*.plist 
+lunchy start postgres
+
 
