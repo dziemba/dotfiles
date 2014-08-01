@@ -9,4 +9,5 @@ default = simple
 st = status
 co = checkout
 ds = diff --staged
+pr = pull --rebase
 
