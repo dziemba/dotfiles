@@ -4,6 +4,11 @@
 brew update
 brew upgrade
 
+brew install caskroom/cask/brew-cask
+
+# required for some brew packages
+brew cask install xquartz
+
 brew install coreutils
 brew install findutils
 brew install bash-completion
@@ -38,9 +43,6 @@ brew doctor
 brew cleanup
 
 # Brew Cask
-brew tap caskroom/cask
-brew install brew-cask
-
 brew cask install google-chrome
 brew cask install iterm2
 brew cask install atom
