@@ -52,7 +52,6 @@ brew cask install dropbox
 brew cask install keepassx
 brew cask install libreoffice
 brew cask install vlc
-brew cask install mactex
 brew cask install vagrant
 brew cask install transmission
 brew cask install keka
