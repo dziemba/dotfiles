@@ -89,7 +89,7 @@ gem install rails
 gem install rake
 gem install thor
 gem install rerun
-gem install launchy
+gem install lunchy
 
 gem update
 
