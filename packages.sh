@@ -38,6 +38,7 @@ brew install watch
 brew install wget
 brew install wine
 brew install postgresql
+brew install qt
 
 brew doctor
 brew cleanup
