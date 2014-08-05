@@ -75,6 +75,8 @@ apm install linter-ruby
 apm install linter-jshint
 apm install merge-conflicts
 apm install script
+apm install git-plus
+apm install language-haml
 
 apm upgrade -c false
 
