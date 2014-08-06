@@ -18,4 +18,11 @@ alias dev="cd $HOME/Dropbox/Dev"
 alias godev="cd $GOPATH/src/github.com/dziemba"
 
 alias scan="scanimage --mode Color --resolution 300 |convert - Scan\$(date +%s).jpg"
+alias rubocop-diff-master="rubocop -R --force-exclusion \
+  \$(ls \$(git diff --name-only master HEAD |grep rb\$ |grep -v ^db/))"
+
+export PATH="$PATH:$HOME/.rvm/bin" 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
+
+[ -e /$HOME/Dev/credentials/env ] && . $HOME/Dev/credentials/env
 
