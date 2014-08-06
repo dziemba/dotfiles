@@ -6,6 +6,7 @@ ln -sf .dotfiles/bashrc .bash_profile
 ln -sf .dotfiles/gemrc .gemrc
 ln -sf .dotfiles/gitconfig .gitconfig
 ln -sf .dotfiles/vimrc .vimrc
+ln -sf .dotfiles/rubocop.yml .rubocop.yml
 
 mkdir -p .atom
 ln -sf ../.dotfiles/atom/config.cson .atom/config.cson
