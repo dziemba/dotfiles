@@ -39,6 +39,7 @@ brew install wget
 brew install wine
 brew install postgresql
 brew install qt
+brew install redis
 
 brew doctor
 brew cleanup
@@ -100,6 +101,7 @@ gem update
 
 # Postinstall
 lunchy install /usr/local/opt/postgresql/*.plist 
+lunchy install /usr/local/opt/redis/*.plist
 lunchy start postgres
-
+lunchy start redis
 
