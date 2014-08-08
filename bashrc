@@ -24,8 +24,7 @@ alias scan="scanimage --mode Color --resolution 300 |convert - Scan\$(date +%s).
 alias rubocop-diff-master="rubocop -R --force-exclusion \
   \$(ls \$(git diff --name-only master HEAD |grep \\\\.rb\$ |grep -v ^db/))"
 
-export PATH="$PATH:$HOME/.rvm/bin" 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
+eval "$(rbenv init -)"
 
 [ -e /$HOME/Dev/credentials/env ] && . $HOME/Dev/credentials/env
 
