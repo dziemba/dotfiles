@@ -1,4 +1,4 @@
-export PS1="\u@\h:\w$ "
+export PS1='\u@\h:\w$(__git_ps1 " (%s)")\$ '
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:/usr/bin:/bin:/usr/sbin:/sbin
 unset HISTFILE
 
