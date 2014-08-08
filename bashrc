@@ -12,6 +12,9 @@ export GOPATH="$HOME/Dropbox/Dev/Go"
 export ATOM_PATH="$HOME/Applications"
 
 alias l="ls -alh"
+alias be="bundle exec"
+alias beguard="bundle exec guard -c"
+alias bespec="bundle exec rspec"
 
 alias dropbox="cd $HOME/Dropbox"
 alias dev="cd $HOME/Dropbox/Dev"
