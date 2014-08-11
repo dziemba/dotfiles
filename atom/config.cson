@@ -18,7 +18,7 @@
     'dev-live-reload'
     'deprecation-cop'
     'autosave'
-    'autocomplete'
+    'autocomplete-plus'
   ]
   'useReactEditor': true
   'themes': [
@@ -30,9 +30,6 @@
   'goExecutablePath': '/usr/local/bin/go'
   'gofmtPath': '/usr/local/bin/gofmt'
   'syntaxCheckOnSave': true
-'autocomplete-plus':
-  'autoActivationDelay': 200
-  'includeCompletionsFromAllBuffers': true
 'linter-ruby':
   'rubyExecutablePath': '/usr/local/bin'
 'minimap':
