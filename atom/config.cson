@@ -6,7 +6,6 @@
 'core':
   'disabledPackages': [
     'metrics'
-    'language-ruby-on-rails'
     'welcome'
     'update-package-dependencies'
     'symbols-view'
