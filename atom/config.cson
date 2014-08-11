@@ -18,7 +18,6 @@
     'dev-live-reload'
     'deprecation-cop'
     'autosave'
-    'autocomplete-plus'
   ]
   'useReactEditor': true
   'themes': [
