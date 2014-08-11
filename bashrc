@@ -10,6 +10,7 @@ export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
 
 export GOPATH="$HOME/Dropbox/Dev/Go"
 export ATOM_PATH="$HOME/Applications"
+export NODE_PATH="/usr/local/lib/node_modules"
 
 alias l="ls -alh"
 alias be="bundle exec"
