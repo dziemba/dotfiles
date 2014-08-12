@@ -79,6 +79,7 @@ apm install script
 apm install git-plus
 apm install language-haml
 apm install linter-js-yaml
+apm install linter-rubocop
 
 apm upgrade -c false
 
