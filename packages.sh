@@ -78,6 +78,7 @@ apm install merge-conflicts
 apm install script
 apm install git-plus
 apm install language-haml
+apm install linter-js-yaml
 
 apm upgrade -c false
 
