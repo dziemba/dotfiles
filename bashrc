@@ -27,6 +27,5 @@ alias rubocop-diff-master="rubocop -R --force-exclusion \
   \$(ls \$(git diff --name-only master HEAD |grep \\\\.rb\$ |grep -v ^db/))"
 
 eval "$(rbenv init -)"
-
-[ -e /$HOME/Dev/credentials/env ] && . $HOME/Dev/credentials/env
+eval "$(direnv hook bash)"
 

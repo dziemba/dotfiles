@@ -40,6 +40,7 @@ brew install wine
 brew install postgresql
 brew install qt
 brew install redis
+brew install direnv
 
 brew doctor
 brew cleanup
