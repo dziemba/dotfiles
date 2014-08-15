@@ -66,6 +66,7 @@ brew cask install rekordbox
 brew cask install skype
 brew cask install google-drive
 brew cask install gimp
+brew cask install firefox
 
 brew cask cleanup
 
