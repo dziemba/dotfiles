@@ -13,3 +13,5 @@ mkdir -p .atom
 ln -sf ../.dotfiles/atom/config.cson .atom/config.cson
 ln -sf ../.dotfiles/atom/keymap.cson .atom/keymap.cson
 
+cp .dotfiles/keepassxkeepassx2.ini Library/Application\ Support/keepassxkeepassx2.ini
+
