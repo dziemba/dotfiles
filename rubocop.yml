@@ -7,13 +7,13 @@ Style/Documentation:
 Style/DotPosition:
   Enabled: false
 
-Style/LineLength:
+Metrics/LineLength:
   Max: 1000
 
-Style/ClassLength:
+Metrics/ClassLength:
   Max: 200
 
-Style/MethodLength:
+Metrics/MethodLength:
   Max: 50
 
 Style/MultilineBlockChain:
