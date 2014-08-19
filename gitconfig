@@ -9,9 +9,13 @@ email = niko@dziemba.com
 default = simple
 
 [alias]
+aa = add -A
+fs = !git fetch --all && git status
 st = status
 co = checkout
+df = diff
 ds = diff --staged
+cm = commit
 pr = pull --rebase
 rc = rebase --continue
 rs = rebase --skip
