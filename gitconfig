@@ -17,6 +17,7 @@ df = diff
 ds = diff --staged
 cm = commit
 pr = pull --rebase
+rom = !git fetch --all && git rebase origin/master
 rc = rebase --continue
 rs = rebase --skip
 
