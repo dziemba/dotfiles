@@ -10,12 +10,14 @@ default = simple
 
 [alias]
 aa = add -A
+ap = add -p
 fs = !git fetch --all && git status
 st = status
 co = checkout
 df = diff
 ds = diff --staged
-cm = commit
+cm = commit -m
+amend = commit --amend
 pr = pull --rebase
 rom = !git fetch --all && git rebase origin/master
 rc = rebase --continue
