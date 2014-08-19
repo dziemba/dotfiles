@@ -4,6 +4,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:/usr/bin:/bin
 unset HISTFILE
 
 shopt -s autocd
+shopt -s globstar
 
 [ -e /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
