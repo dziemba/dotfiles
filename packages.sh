@@ -9,6 +9,7 @@ brew install caskroom/cask/brew-cask
 # required for some brew packages
 brew cask install xquartz
 
+brew install bash
 brew install coreutils
 brew install findutils
 brew install bash-completion
@@ -108,4 +109,7 @@ lunchy install /usr/local/opt/postgresql/*.plist
 lunchy install /usr/local/opt/redis/*.plist
 lunchy start postgres
 lunchy start redis
+
+grep /usr/local/bin/bash /etc/shells || echo /usr/local/bin/bash |sudo tee -a /etc/shells
+sudo dscl . -change /Users/$USER UserShell /bin/bash /usr/local/bin/bash 2>/dev/null
 

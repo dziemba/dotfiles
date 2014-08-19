@@ -3,6 +3,8 @@ export PROMPT_COMMAND='echo -ne "\033];${PWD##*/}\007"; ':"$PROMPT_COMMAND";
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:/usr/bin:/bin:/usr/sbin:/sbin
 unset HISTFILE
 
+shopt -s autocd
+
 [ -e /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 export EDITOR="vim"
