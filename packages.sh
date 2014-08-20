@@ -69,6 +69,10 @@ brew cask install google-drive
 brew cask install gimp
 brew cask install firefox
 
+# Brew fonts
+brew tap caskroom/fonts
+brew cask install font-ubuntu-mono-powerline
+
 brew cask cleanup
 
 # Atom Packages

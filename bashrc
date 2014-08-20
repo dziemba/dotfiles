@@ -10,7 +10,7 @@ shopt -s globstar
 
 export EDITOR="vim"
 export CLICOLOR=1
-export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd" 
+export LSCOLORS="gxfxbEaEBxxEhEhBaDaCaD"
 
 export GOPATH="$HOME/Dropbox/Dev/Go"
 export ATOM_PATH="$HOME/Applications"
