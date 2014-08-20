@@ -42,6 +42,7 @@ brew install postgresql
 brew install qt
 brew install redis
 brew install direnv
+brew install the_silver_searcher
 
 brew doctor
 brew cleanup
@@ -109,7 +110,7 @@ gem install rubocop
 gem update
 
 # Postinstall
-lunchy install /usr/local/opt/postgresql/*.plist 
+lunchy install /usr/local/opt/postgresql/*.plist
 lunchy install /usr/local/opt/redis/*.plist
 lunchy start postgres
 lunchy start redis
