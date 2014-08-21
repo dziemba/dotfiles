@@ -6,5 +6,4 @@ cd $HOME/.dotfiles
 ./packages.sh
 ./config.sh
 ./vim.sh
-./iterm.sh
 

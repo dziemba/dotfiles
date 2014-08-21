@@ -72,7 +72,7 @@ brew cask install firefox
 
 # Brew fonts
 brew tap caskroom/fonts
-brew cask install font-ubuntu-mono-powerline
+brew cask install font-sauce-code-powerline
 
 brew cask cleanup
 
