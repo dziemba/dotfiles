@@ -1,6 +1,7 @@
 #!/bin/bash -e
 
 FONT="SauceCodePowerline-Regular 14"
+FONT_NONASCII="SauceCodePowerline-Regular 13"
 
 if [ "$TERM_PROGRAM" == "iTerm.app" ]; then
   echo "Run iterm.sh in Terminal.app, not iTerm!"
@@ -18,7 +19,7 @@ done
 
 $buddy -c "Merge 'solarized.itermcolors' :'New Bookmarks':0" $plist
 
-$buddy -c "Set 'New Bookmarks':0:'Non Ascii Font' '$FONT'" $plist
+$buddy -c "Set 'New Bookmarks':0:'Non Ascii Font' '$FONT_NONASCII'" $plist
 $buddy -c "Set 'New Bookmarks':0:'Normal Font' '$FONT'" $plist
 
 $buddy -c "Set 'New Bookmarks':0:'Use Bold Font' '0'" $plist
