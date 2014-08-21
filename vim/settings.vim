@@ -1,3 +1,6 @@
+set background=dark
+colorscheme solarized
+
 noremap <silent> ,o :NERDTreeToggle<CR>
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
