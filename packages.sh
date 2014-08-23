@@ -69,6 +69,7 @@ brew cask install skype
 brew cask install google-drive
 brew cask install gimp
 brew cask install firefox
+brew cask install seil
 
 # Brew fonts
 brew tap caskroom/fonts
