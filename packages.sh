@@ -106,6 +106,7 @@ gem install thor
 gem install rerun
 gem install lunchy
 gem install rubocop
+gem install pry
 
 gem update
 
