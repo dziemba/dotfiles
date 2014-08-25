@@ -19,6 +19,8 @@ done
 
 $buddy -c "Merge 'solarized.itermcolors' :'New Bookmarks':0" $plist
 
+$buddy -c "Set 'New Bookmarks':0:'Terminal Type' 'xterm-256color'" $plist
+
 $buddy -c "Set 'New Bookmarks':0:'Non Ascii Font' '$FONT_NONASCII'" $plist
 $buddy -c "Set 'New Bookmarks':0:'Normal Font' '$FONT'" $plist
 
