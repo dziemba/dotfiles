@@ -77,21 +77,6 @@ brew cask install font-sauce-code-powerline
 
 brew cask cleanup
 
-# Atom Packages
-apm install go-plus
-apm install file-icons
-apm install linter
-apm install linter-ruby
-apm install linter-jshint
-apm install merge-conflicts
-apm install script
-apm install git-plus
-apm install language-haml
-apm install linter-js-yaml
-apm install linter-rubocop
-
-apm upgrade -c false
-
 # Node Packages
 npm install -g uglify-js
 npm install -g less
