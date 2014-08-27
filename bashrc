@@ -12,7 +12,7 @@ export EDITOR="vim"
 export CLICOLOR=1
 export LSCOLORS="gxfxbEaEBxxEhEhBaDaCaD"
 
-export GOPATH="$HOME/Dropbox/Dev/Go"
+export GOPATH="$HOME/dev/Go"
 export ATOM_PATH="$HOME/Applications"
 export NODE_PATH="/usr/local/lib/node_modules"
 
@@ -23,7 +23,7 @@ alias beguard="bundle exec guard -c"
 alias bespec="bundle exec rspec"
 
 alias dropbox="cd $HOME/Dropbox"
-alias dev="cd $HOME/Dropbox/Dev"
+alias dev="cd $HOME/dev"
 alias godev="cd $GOPATH/src/github.com/dziemba"
 
 alias scan="scanimage --mode Color --resolution 300 |convert - Scan\$(date +%s).jpg"
