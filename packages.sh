@@ -97,8 +97,8 @@ yes |gem install pry
 yes |gem update
 
 # Postinstall
-lunchy install /usr/local/opt/postgresql/*.plist
-lunchy install /usr/local/opt/redis/*.plist
+lunchy install /usr/local/opt/postgresql/homebrew.mxcl.postgresql.plist
+lunchy install /usr/local/opt/redis/homebrew.mxcl.redis.plist
 lunchy start postgres
 lunchy start redis
 
