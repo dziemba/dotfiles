@@ -16,6 +16,7 @@ set hlsearch
 set modeline
 set ignorecase
 set smartcase
+set backspace=2
 
 set tabstop=2
 set shiftwidth=2
@@ -43,8 +44,6 @@ let g:netrw_liststyle = 3
 noremap ° :tabp<cr>
 noremap <S-TAB> :tabn<cr>
 noremap <F2> :Texplore<cr>
-nnoremap 0 ^
-nnoremap ^ 0
 nnoremap <silent> vv <C-w>v
 nnoremap <silent> ss <C-w>s
 nmap <silent> // :nohlsearch<CR>
