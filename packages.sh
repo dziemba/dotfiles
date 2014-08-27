@@ -50,7 +50,6 @@ brew cleanup
 # Brew Cask
 brew cask install google-chrome
 brew cask install iterm2
-brew cask install atom
 brew cask install virtualbox
 brew cask install spotify
 brew cask install dropbox
