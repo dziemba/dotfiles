@@ -70,6 +70,7 @@ brew cask install gimp
 brew cask install firefox
 brew cask install seil
 brew cask install flash-player
+brew cask install hipchat
 
 # Brew fonts
 brew tap caskroom/fonts
