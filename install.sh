@@ -16,5 +16,7 @@ cd $HOME/.dotfiles
 ./config.sh
 ./vim.sh
 
+# run twice to ensure it really works...
+./iterm.sh
 ./iterm.sh
 
