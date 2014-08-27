@@ -33,3 +33,55 @@ alias rubocop-diff-master="rubocop -R --force-exclusion \
 eval "$(rbenv init -)"
 eval "$(direnv hook bash)"
 
+function git-master()
+{
+  if ! git st |grep "Your branch is up-to-date with 'origin/master'." >/dev/null; then
+    echo  "Not on master"
+    return 1
+  fi
+
+  if ! git st |grep "nothing to commit, working directory clean" >/dev/null; then
+    echo "Dir not clean"
+    return 1
+  fi
+
+  git fetch --all
+  git co master
+  git merge origin/master
+}
+
+function rbenv-setup()
+{
+  git-master || return 1
+
+  rbenv install -s
+  rbenv local
+  gem install bundler
+  rbenv rehash
+  bundle
+}
+
+function rails-mrproper()
+{
+  rbenv-setup || return 1
+
+  if [ ! -e .envrc ]; then
+    echo "No .envrc found!"
+    return 1
+  fi
+
+  if direnv status |grep 'Found RC allowed false' >/dev/null; then
+    echo "Direnv not allowed!"
+    return 1
+  fi
+
+  if [ ! -e config/database.yml ]; then
+    echo "No database.yml found!"
+    return 1
+  fi
+
+  be rake db:drop db:setup
+  betest rake db:drop db:setup
+  bespec
+}
+
