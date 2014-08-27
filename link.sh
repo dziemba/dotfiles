@@ -7,6 +7,7 @@ ln -sf .dotfiles/gemrc .gemrc
 ln -sf .dotfiles/gitconfig .gitconfig
 ln -sf .dotfiles/gitignore .gitignore_global
 ln -sf .dotfiles/vimrc .vimrc
+rm -rf .vim
 ln -sf .dotfiles/vim .vim
 ln -sf .dotfiles/rubocop.yml .rubocop.yml
 
