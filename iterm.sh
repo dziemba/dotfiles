@@ -8,6 +8,11 @@ if [ "$TERM_PROGRAM" == "iTerm.app" ]; then
   exit 0
 fi
 
+# start iterm to get default settings set
+$HOME/Applications/iTerm.app/Contents/MacOS/iTerm &
+PID=$!
+sleep 1
+kill -9 $PID
 
 plist="$HOME/Library/Preferences/com.googlecode.iterm2.plist"
 buddy=/usr/libexec/PlistBuddy
