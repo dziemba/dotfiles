@@ -84,16 +84,16 @@ npm install -g jshint
 npm update -g
 
 # Ruby Packages (with executables only, use bundler otherwise!)
-gem install bundler
-gem install rails
-gem install rake
-gem install thor
-gem install rerun
-gem install lunchy
-gem install rubocop
-gem install pry
+yes |gem install bundler
+yes |gem install rails
+yes |gem install rake
+yes |gem install thor
+yes |gem install rerun
+yes |gem install lunchy
+yes |gem install rubocop
+yes |gem install pry
 
-gem update
+yes |gem update
 
 # Postinstall
 lunchy install /usr/local/opt/postgresql/*.plist
