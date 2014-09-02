@@ -71,6 +71,7 @@ brew cask install seil
 brew cask install flash-player
 brew cask install hipchat
 brew cask install pgadmin3
+brew cask install wireshark
 
 # Brew fonts
 brew tap caskroom/fonts
