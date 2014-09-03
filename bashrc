@@ -50,6 +50,15 @@ function git-master()
   git merge origin/master
 }
 
+function git-clean-branches
+{
+  git fetch --all
+  git branch --merged master |grep -v master$ |xargs git branch -d
+  git branch -r --merged master |grep -v master$ |xargs git branch -rd
+  git gc
+  git branch -a
+}
+
 function rbenv-setup()
 {
   git-master || return 1
