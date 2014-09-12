@@ -18,6 +18,8 @@ sleep 1
 plist="$HOME/Library/Preferences/com.googlecode.iterm2.plist"
 buddy=/usr/libexec/PlistBuddy
 
+defaults read com.googlecode.iterm2 >/dev/null
+
 IFS=$'\n'
 for key in `cat solarized.itermcolors |grep key |cut -d'>' -f2 |cut -d'<' -f1`; do
   $buddy -c "Delete :'New Bookmarks':0:'$key'" $plist 2>/dev/null || true
