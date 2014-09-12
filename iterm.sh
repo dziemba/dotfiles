@@ -11,8 +11,8 @@ fi
 # start iterm to get default settings set
 $HOME/Applications/iTerm.app/Contents/MacOS/iTerm &
 PID=$!
-sleep 1
-kill -9 $PID
+sleep 2
+kill $PID
 sleep 1
 
 plist="$HOME/Library/Preferences/com.googlecode.iterm2.plist"
