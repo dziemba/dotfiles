@@ -43,6 +43,7 @@ brew install qt
 brew install redis
 brew install direnv
 brew install the_silver_searcher
+brew install raggi/ale/openssl-osx-ca
 
 brew doctor
 brew cleanup
