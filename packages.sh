@@ -84,6 +84,11 @@ brew cask cleanup
 npm install -g uglify-js
 npm install -g less
 npm install -g jshint
+npm install -g cordova
+npm install -g ionic
+npm install -g ios-sim
+npm install -g ios-deploy
+npm install -g gulp
 
 npm update -g
 
