@@ -52,6 +52,7 @@ function git-master()
 
 function git-clean-branches
 {
+  git co master
   git fetch --all
   git branch --merged master |grep -v master$ |xargs git branch -d
   git branch -r --merged master |grep -v master$ |xargs git branch -rd
