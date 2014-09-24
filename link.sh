@@ -11,5 +11,7 @@ rm -rf .vim
 ln -sf .dotfiles/vim .vim
 ln -sf .dotfiles/rubocop.yml .rubocop.yml
 
+ln -sf $HOME/.dotfiles/dnsmasq.conf /usr/local/etc/dnsmasq.conf
+
 cp .dotfiles/keepassxkeepassx2.ini Library/Application\ Support/keepassxkeepassx2.ini
 

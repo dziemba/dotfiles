@@ -42,6 +42,7 @@ brew install postgresql
 brew install qt
 brew install redis
 brew install direnv
+brew install dnsmasq
 brew install the_silver_searcher
 brew install raggi/ale/openssl-osx-ca
 
@@ -112,4 +113,9 @@ lunchy start redis
 
 grep /usr/local/bin/bash /etc/shells || echo /usr/local/bin/bash |sudo tee -a /etc/shells
 sudo dscl . -change /Users/$USER UserShell /bin/bash /usr/local/bin/bash 2>/dev/null || true
+
+sudo lunchy install /usr/local/opt/dnsmasq/*.plist
+sudo lunchy start dnsmasq
+sudo mkdir -p /etc/resolver
+echo "nameserver 127.0.0.1" |sudo tee /etc/resolver/dev > /dev/null
 
