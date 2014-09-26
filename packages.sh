@@ -44,10 +44,10 @@ brew install redis
 brew install direnv
 brew install dnsmasq
 brew install the_silver_searcher
-brew install raggi/ale/openssl-osx-ca
 
-brew doctor
+brew prune
 brew cleanup
+brew doctor
 
 # Brew Cask
 brew cask install google-chrome
@@ -82,6 +82,7 @@ brew cask install font-sauce-code-powerline
 brew cask cleanup
 
 # Node Packages
+npm install -g npm
 npm install -g uglify-js
 npm install -g less
 npm install -g jshint
@@ -90,8 +91,6 @@ npm install -g ionic
 npm install -g ios-sim
 npm install -g ios-deploy
 npm install -g gulp
-
-npm update -g
 
 # Ruby Packages (with executables only, use bundler otherwise!)
 yes |gem install bundler
@@ -118,4 +117,9 @@ sudo lunchy install /usr/local/opt/dnsmasq/*.plist
 sudo lunchy start dnsmasq
 sudo mkdir -p /etc/resolver
 echo "nameserver 127.0.0.1" |sudo tee /etc/resolver/dev > /dev/null
+
+certs="/usr/local/etc/openssl/cert.pem"
+security find-certificate -a -p /Library/Keychains/System.keychain > $certs
+security find-certificate -a -p /System/Library/Keychains/SystemRootCertificates.keychain >> $certs
+c_rehash /usr/local/etc/openssl
 
