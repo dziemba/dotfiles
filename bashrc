@@ -3,6 +3,9 @@ export PROMPT_COMMAND='echo -ne "\033];${PWD##*/}\007"; ':"$PROMPT_COMMAND";
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:/usr/bin:/bin:/usr/sbin:/sbin
 unset HISTFILE
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 shopt -s autocd
 shopt -s globstar
 

@@ -44,6 +44,7 @@ brew install redis
 brew install direnv
 brew install dnsmasq
 brew install the_silver_searcher
+brew install awscli
 
 brew prune
 brew cleanup
