@@ -92,6 +92,7 @@ npm install -g ionic
 npm install -g ios-sim
 npm install -g ios-deploy
 npm install -g gulp
+npm install -g bower
 
 # Ruby Packages (with executables only, use bundler otherwise!)
 yes |gem install bundler
