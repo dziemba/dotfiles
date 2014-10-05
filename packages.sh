@@ -75,6 +75,7 @@ brew cask install flash-player
 brew cask install hipchat
 brew cask install pgadmin3
 brew cask install wireshark
+brew cask install chefdk
 
 # Brew fonts
 brew tap caskroom/fonts
@@ -105,6 +106,10 @@ yes |gem install rubocop
 yes |gem install pry
 
 yes |gem update
+
+# Vagrant plugins
+vagrant plugin install vagrant-berkshelf
+vagrant plugin install vagrant-omnibus
 
 # Postinstall
 lunchy install /usr/local/opt/postgresql/homebrew.mxcl.postgresql.plist
