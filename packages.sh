@@ -45,6 +45,7 @@ brew install direnv
 brew install dnsmasq
 brew install the_silver_searcher
 brew install awscli
+brew install mysql
 
 brew prune
 brew cleanup
