@@ -55,8 +55,7 @@ function git-master()
 
 function git-clean-branches
 {
-  git co master
-  git fetch --all
+  git-master || return 1
   git branch --merged master |grep -v master$ |xargs git branch -d
   git branch -r --merged master |grep -v master$ |xargs git branch -rd
   git gc
@@ -70,19 +69,11 @@ function rbenv-setup()
   rbenv install -s
   rbenv local
   gem install bundler
-  rbenv rehash
   bundle
 }
 
-function rails-mrproper()
+function rails-fresh-db()
 {
-  rbenv-setup || return 1
-
-  if [ ! -e .envrc ]; then
-    echo "No .envrc found!"
-    return 1
-  fi
-
   if direnv status |grep 'Found RC allowed false' >/dev/null; then
     echo "Direnv not allowed!"
     return 1
