@@ -32,6 +32,8 @@ set scrolloff=8
 set sidescrolloff=15
 set sidescroll=1
 
+set clipboard=unnamed
+
 let mapleader=","
 
 set cc=100
