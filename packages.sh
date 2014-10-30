@@ -48,6 +48,7 @@ brew install awscli
 brew install mysql
 brew install hiredis
 brew install gcc
+brew install protobuf
 
 brew prune
 brew cleanup
