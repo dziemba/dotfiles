@@ -119,7 +119,7 @@ lunchy start redis
 grep /usr/local/bin/bash /etc/shells || echo /usr/local/bin/bash |sudo tee -a /etc/shells
 sudo dscl . -change /Users/$USER UserShell /bin/bash /usr/local/bin/bash 2>/dev/null || true
 
-sudo lunchy install /usr/local/opt/dnsmasq/*.plist
+sudo cp /usr/local/opt/dnsmasq/*.plist /Library/LaunchDaemons
 sudo lunchy start dnsmasq
 sudo mkdir -p /etc/resolver
 echo "nameserver 127.0.0.1" |sudo tee /etc/resolver/dev > /dev/null
