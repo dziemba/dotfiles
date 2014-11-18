@@ -49,6 +49,7 @@ brew install mysql
 brew install hiredis
 brew install gcc
 brew install protobuf
+brew install boot2docker
 
 brew prune
 brew cleanup
