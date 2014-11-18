@@ -22,4 +22,4 @@ pr = pull --rebase
 rom = !git fetch --all && git rebase origin/master
 rc = rebase --continue
 rs = rebase --skip
-
+wip = !git add -A && git commit -m 'WIP'
