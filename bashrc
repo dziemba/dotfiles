@@ -90,3 +90,7 @@ function rails-fresh-db()
   bespec
 }
 
+function b2d() {
+  $(boot2docker shellinit)
+}
+
