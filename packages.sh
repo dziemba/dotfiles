@@ -50,6 +50,7 @@ brew install hiredis
 brew install gcc
 brew install protobuf
 brew install boot2docker
+brew install jq
 
 brew prune
 brew cleanup
