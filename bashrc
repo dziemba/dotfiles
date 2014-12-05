@@ -22,6 +22,7 @@ export NODE_PATH="/usr/local/lib/node_modules"
 alias l="ls -alh"
 alias be="bundle exec"
 alias betest="RAILS_ENV=test bundle exec"
+alias ber="bundle exec rake"
 alias beguard="bundle exec guard -c"
 alias bespec="bundle exec rspec"
 
