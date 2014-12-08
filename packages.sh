@@ -109,6 +109,7 @@ yes |gem install rerun
 yes |gem install lunchy
 yes |gem install rubocop
 yes |gem install pry
+yes |gem install git-up
 
 yes |gem update
 
