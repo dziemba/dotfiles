@@ -25,6 +25,7 @@ Bundle "nelstrom/vim-markdown-preview"
 Bundle "skwp/vim-html-escape"
 Bundle "tpope/vim-haml"
 Bundle "fatih/vim-go"
+Bundle "slim-template/vim-slim"
 
 Bundle "jistr/vim-nerdtree-tabs"
 Bundle "scrooloose/nerdtree"
