@@ -23,3 +23,8 @@ rom = !git fetch --all && git rebase origin/master
 rc = rebase --continue
 rs = rebase --skip
 wip = !git add -A && git commit -m 'WIP'
+
+[git-up "rebase"]
+auto = false
+[git-up "fetch"]
+all = true
