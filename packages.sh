@@ -51,6 +51,7 @@ brew install gcc
 brew install protobuf
 brew install boot2docker
 brew install jq
+brew install scala
 
 brew prune
 brew cleanup
@@ -82,6 +83,7 @@ brew cask install hipchat
 brew cask install pgadmin3
 brew cask install wireshark
 brew cask install audacity
+brew cask install java
 
 # Brew fonts
 brew tap caskroom/fonts
