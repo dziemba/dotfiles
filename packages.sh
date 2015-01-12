@@ -52,6 +52,7 @@ brew install protobuf
 brew install boot2docker
 brew install jq
 brew install scala
+brew install cowsay
 
 brew prune
 brew cleanup
