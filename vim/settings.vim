@@ -19,6 +19,8 @@ noremap <silent> ,b :CtrlPBuffer<cr>)
 nmap sj :SplitjoinSplit<cr>
 nmap sk :SplitjoinJoin<cr>
 
+let g:syntastic_ruby_checkers = ['mri', 'rubocop']
+
 let g:lightline = {
   \ 'colorscheme': 'wombat',
   \ 'component': {
