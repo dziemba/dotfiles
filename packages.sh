@@ -4,6 +4,7 @@
 brew update
 brew upgrade
 
+brew tap homebrew/science
 brew install caskroom/cask/brew-cask
 
 # required for some brew packages
@@ -53,6 +54,7 @@ brew install boot2docker
 brew install jq
 brew install scala
 brew install cowsay
+brew install r
 
 brew prune
 brew cleanup
@@ -85,6 +87,7 @@ brew cask install pgadmin3
 brew cask install wireshark
 brew cask install audacity
 brew cask install java
+brew cask install rstudio
 
 # Brew fonts
 brew tap caskroom/fonts
