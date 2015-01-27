@@ -88,6 +88,7 @@ brew cask install wireshark
 brew cask install audacity
 brew cask install java
 brew cask install rstudio
+brew cask install gpgtools
 
 # Brew fonts
 brew tap caskroom/fonts
