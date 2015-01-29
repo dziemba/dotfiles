@@ -29,6 +29,7 @@ brew install openssl
 brew install openvpn
 brew install pngcrush
 brew install rbenv
+brew install rbenv-gem-rehash
 brew install rdesktop
 brew install rename
 brew install ruby
@@ -108,6 +109,10 @@ npm install -g ios-sim
 npm install -g ios-deploy
 npm install -g gulp
 npm install -g bower
+
+# Ruby
+rbenv install -s $(cat ruby-version)
+rbenv global $(cat ruby-version)
 
 # Ruby Packages (with executables only, use bundler otherwise!)
 yes |gem install bundler
