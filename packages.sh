@@ -57,6 +57,7 @@ brew install cowsay
 brew install r
 
 brew prune
+brew cask cleanup
 brew cleanup
 brew doctor
 
