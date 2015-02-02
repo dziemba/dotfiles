@@ -91,6 +91,7 @@ brew cask install audacity
 brew cask install java
 brew cask install rstudio
 brew cask install gpgtools
+brew cask install inkscape
 
 # Brew fonts
 brew tap caskroom/fonts
