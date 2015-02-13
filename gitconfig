@@ -23,6 +23,8 @@ rom = !git fetch --all && git rebase origin/master
 rc = rebase --continue
 rs = rebase --skip
 wip = !git add -A && git commit -m 'WIP'
+cp = cherry-pick
+rh = reset --hard
 
 [git-up "rebase"]
 auto = false
