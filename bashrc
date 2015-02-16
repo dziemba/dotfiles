@@ -95,3 +95,10 @@ function b2d() {
   $(boot2docker shellinit)
 }
 
+function loop() {
+  while true; do
+    $@
+    echo "Press [ENTER] to run again..."
+    read DUMMY
+  done
+}
