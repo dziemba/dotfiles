@@ -6,7 +6,7 @@ name = Niko Dziemba
 email = niko@dziemba.com
 
 [push]
-default = simple
+default = current
 
 [alias]
 aa = add -A
