@@ -148,3 +148,5 @@ security find-certificate -a -p /Library/Keychains/System.keychain > $certs
 security find-certificate -a -p /System/Library/Keychains/SystemRootCertificates.keychain >> $certs
 c_rehash /usr/local/etc/openssl
 
+sudo chown root /usr/local/bin/htop
+sudo chmod +s /usr/local/bin/htop
