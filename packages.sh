@@ -93,6 +93,7 @@ brew cask install java
 brew cask install rstudio
 brew cask install gpgtools
 brew cask install inkscape
+brew cask install psequel
 
 # Brew fonts
 brew tap caskroom/fonts
