@@ -84,7 +84,6 @@ brew cask install skype
 brew cask install google-drive
 brew cask install gimp
 brew cask install firefox
-brew cask install seil
 brew cask install flash-player
 brew cask install hipchat
 brew cask install pgadmin3

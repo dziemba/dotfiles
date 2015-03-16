@@ -21,8 +21,3 @@ defaults write org.m0k.transmission DownloadAsk -bool false
 defaults write org.m0k.transmission DeleteOriginalTorrent -bool true
 defaults write org.m0k.transmission WarningDonate -bool false
 defaults write org.m0k.transmission WarningLegal -bool false
-
-# Map Capslock to Escape
-/Applications/Seil.app/Contents/Library/bin/seil set enable_capslock 1
-/Applications/Seil.app/Contents/Library/bin/seil set keycode_capslock 53
-
