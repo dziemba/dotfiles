@@ -58,6 +58,7 @@ brew install cowsay
 brew install r
 brew install elixir
 brew install s3cmd
+brew install wrk
 
 brew prune
 brew cask cleanup
