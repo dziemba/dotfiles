@@ -22,6 +22,7 @@ pr = pull --rebase
 rom = !git fetch --all && git rebase origin/master
 rc = rebase --continue
 rs = rebase --skip
+ra = rebase --abort
 wip = !git add -A && git commit -m 'WIP'
 cp = cherry-pick
 rh = reset --hard
