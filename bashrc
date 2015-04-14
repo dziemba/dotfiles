@@ -37,26 +37,8 @@ alias rubocop-diff-master="rubocop -R --force-exclusion \
 eval "$(rbenv init -)"
 eval "$(direnv hook bash)"
 
-function git-master()
-{
-  if ! git st |grep "Your branch is up-to-date with 'origin/master'." >/dev/null; then
-    echo  "Not on master"
-    return 1
-  fi
-
-  if ! git st |grep "nothing to commit, working directory clean" >/dev/null; then
-    echo "Dir not clean"
-    return 1
-  fi
-
-  git fetch --all
-  git co master
-  git merge origin/master
-}
-
 function git-clean-branches
 {
-  git-master || return 1
   git branch --merged master |grep -v master$ |xargs git branch -d
   git branch -r |grep -v master$ |xargs git branch -rd
   git fetch --all
@@ -66,29 +48,10 @@ function git-clean-branches
 
 function rbenv-setup()
 {
-  git-master || return 1
-
   rbenv install -s
   rbenv local
   gem install bundler
   bundle
-}
-
-function rails-fresh-db()
-{
-  if direnv status |grep 'Found RC allowed false' >/dev/null; then
-    echo "Direnv not allowed!"
-    return 1
-  fi
-
-  if [ ! -e config/database.yml ]; then
-    echo "No database.yml found!"
-    return 1
-  fi
-
-  be rake db:drop db:setup
-  betest rake db:drop db:setup
-  bespec
 }
 
 function rails-remigrate()
