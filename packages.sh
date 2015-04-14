@@ -146,7 +146,9 @@ sudo mkdir -p /etc/resolver
 echo "nameserver 127.0.0.1" |sudo tee /etc/resolver/dev > /dev/null
 
 cert_file=/usr/local/etc/openssl/cert.pem
-security find-certificate -a -p /Library/Keychains/System.keychain > $cert_file
+CA_URL="https://raw.githubusercontent.com/bagder/ca-bundle/master/ca-bundle.crt"
+curl $CA_URL > /usr/local/etc/openssl/cert.pem
+security find-certificate -a -p /Library/Keychains/System.keychain >> $cert_file
 security find-certificate -a -p /System/Library/Keychains/SystemRootCertificates.keychain \
   >> $cert_file
 c_rehash /usr/local/etc/openssl
