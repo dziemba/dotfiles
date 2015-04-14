@@ -91,6 +91,14 @@ function rails-fresh-db()
   bespec
 }
 
+function rails-remigrate()
+{
+  ber db:drop
+  git co master -- db/schema.rb db/structure.sql
+  ber db:setup
+  ber db:migrate
+}
+
 function b2d() {
   $(boot2docker shellinit)
 }
