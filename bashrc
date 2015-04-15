@@ -57,7 +57,8 @@ function rbenv-setup()
 function rails-remigrate()
 {
   ber db:drop
-  git co master -- db/schema.rb db/structure.sql
+  git co master -- db/schema.rb
+  git co master -- db/structure.sql
   ber db:setup
   ber db:migrate
 }
