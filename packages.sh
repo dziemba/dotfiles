@@ -95,6 +95,7 @@ brew cask install rstudio
 brew cask install gpgtools
 brew cask install inkscape
 brew cask install psequel
+brew cask install ipvanish-vpn
 
 # Brew fonts
 brew tap caskroom/fonts
