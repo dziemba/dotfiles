@@ -26,6 +26,7 @@ ra = rebase --abort
 wip = !git add -A && git commit -m 'WIP'
 cp = cherry-pick
 rh = reset --hard
+ls = log --stat
 
 [git-up "rebase"]
 auto = false
