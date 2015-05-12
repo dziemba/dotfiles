@@ -74,3 +74,7 @@ function loop() {
     read DUMMY
   done
 }
+
+function wtc() {
+  curl -s whatthecommit.com |egrep '^<p>' |sed 's/^<p>\(.*\)/\1/g'
+}
