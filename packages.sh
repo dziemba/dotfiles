@@ -54,6 +54,7 @@ brew install protobuf
 brew install boot2docker
 brew install jq
 brew install scala
+brew install sbt
 brew install cowsay
 brew install r
 brew install elixir

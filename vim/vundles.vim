@@ -26,6 +26,7 @@ Bundle "tpope/vim-haml"
 Bundle "fatih/vim-go"
 Bundle "slim-template/vim-slim"
 Bundle "elixir-lang/vim-elixir"
+Bundle "derekwyatt/vim-scala"
 
 Bundle "jistr/vim-nerdtree-tabs"
 Bundle "scrooloose/nerdtree"
