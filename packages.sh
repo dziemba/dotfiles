@@ -59,6 +59,7 @@ brew install r
 brew install elixir
 brew install s3cmd
 brew install wrk
+brew install phantomjs
 
 brew prune
 brew cask cleanup
