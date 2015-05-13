@@ -2,7 +2,7 @@
 
 # Brew
 brew update
-brew upgrade
+brew upgrade --all
 
 brew tap homebrew/science
 brew install caskroom/cask/brew-cask
