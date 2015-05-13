@@ -123,17 +123,17 @@ rbenv install -s $(cat ruby-version)
 rbenv global $(cat ruby-version)
 
 # Ruby Packages (with executables only, use bundler otherwise!)
-yes |gem install bundler
-yes |gem install rails
-yes |gem install rake
-yes |gem install thor
-yes |gem install rerun
-yes |gem install lunchy
-yes |gem install rubocop
-yes |gem install pry
-yes |gem install git-up
+gem install bundler
+gem install rails
+gem install rake
+gem install thor
+gem install rerun
+gem install lunchy
+gem install rubocop
+gem install pry
+gem install git-up
 
-yes |gem update
+gem update
 
 # Postinstall
 lunchy install /usr/local/opt/postgresql/homebrew.mxcl.postgresql.plist
