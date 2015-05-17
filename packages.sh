@@ -117,6 +117,7 @@ npm install -g ios-sim
 npm install -g ios-deploy
 npm install -g gulp
 npm install -g bower
+npm install -g npm-check-updates
 
 # Ruby
 rbenv install -s $(cat ruby-version)
