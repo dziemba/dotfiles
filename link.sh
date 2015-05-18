@@ -9,7 +9,6 @@ ln -sf .dotfiles/gitignore .gitignore_global
 ln -sf .dotfiles/vimrc .vimrc
 rm -rf .vim
 ln -sf .dotfiles/vim .vim
-ln -sf .dotfiles/rubocop.yml .rubocop.yml
 
 ln -sf $HOME/.dotfiles/dnsmasq.conf /usr/local/etc/dnsmasq.conf
 
