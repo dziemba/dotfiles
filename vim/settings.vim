@@ -11,13 +11,12 @@ let g:nerdtree_tabs_focus_on_files = 1
 
 nmap ,ag :Ag ""<Left>
 nmap ,af :AgFile ""<Left>
+set grepprg=ag
+let g:grep_cmd_opts = '--line-numbers --noheading'
 
 let g:ctrlp_map = ',t'
 nnoremap <silent> ,t :CtrlP<CR>
 noremap <silent> ,b :CtrlPBuffer<cr>)
-
-nmap sj :SplitjoinSplit<cr>
-nmap sk :SplitjoinJoin<cr>
 
 let g:lightline = {
   \ 'colorscheme': 'wombat',
