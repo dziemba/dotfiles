@@ -111,13 +111,14 @@ npm install -g npm
 npm install -g uglify-js
 npm install -g less
 npm install -g jshint
-npm install -g cordova
-npm install -g ionic
-npm install -g ios-sim
-npm install -g ios-deploy
-npm install -g gulp
 npm install -g bower
 npm install -g npm-check-updates
+
+npm install -g cordova
+npm install -g ionic
+npm install -g generator-ionic
+npm install -g ios-sim
+npm install -g ios-deploy
 
 # Ruby
 rbenv install -s $(cat ruby-version)
