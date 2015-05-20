@@ -113,6 +113,7 @@ npm install -g less
 npm install -g jshint
 npm install -g bower
 npm install -g npm-check-updates
+npm install -g grunt-cli
 
 npm install -g cordova
 npm install -g ionic
