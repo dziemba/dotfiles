@@ -59,6 +59,7 @@ brew install s3cmd
 brew install wrk
 brew install phantomjs
 brew install llvm
+brew install heroku
 
 brew prune
 brew cask cleanup
