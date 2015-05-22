@@ -19,7 +19,6 @@ export CLICOLOR=1
 export LSCOLORS="gxfxbEaEBxxEhEhBaDaCaD"
 
 export GOPATH="$HOME/dev/Go"
-export ATOM_PATH="$HOME/Applications"
 export NODE_PATH="/usr/local/lib/node_modules"
 
 alias l="ls -alh"
