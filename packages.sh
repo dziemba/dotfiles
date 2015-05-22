@@ -4,7 +4,6 @@
 brew update
 brew upgrade --all
 
-brew tap homebrew/science
 brew install caskroom/cask/brew-cask
 
 # required for some brew packages
@@ -56,7 +55,6 @@ brew install jq
 brew install scala
 brew install sbt
 brew install cowsay
-brew install r
 brew install elixir
 brew install s3cmd
 brew install wrk
@@ -94,7 +92,6 @@ brew cask install pgadmin3
 brew cask install wireshark
 brew cask install audacity
 brew cask install java
-brew cask install rstudio
 brew cask install gpgtools
 brew cask install inkscape
 brew cask install psequel
