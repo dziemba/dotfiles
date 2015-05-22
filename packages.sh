@@ -121,6 +121,7 @@ npm install -g ios-deploy
 # Ruby
 rbenv install -s $(cat ruby-version)
 rbenv global $(cat ruby-version)
+gem update --system
 
 # Ruby Packages (with executables only, use bundler otherwise!)
 gem install bundler

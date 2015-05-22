@@ -20,6 +20,7 @@ export LSCOLORS="gxfxbEaEBxxEhEhBaDaCaD"
 
 export GOPATH="$HOME/dev/Go"
 export NODE_PATH="/usr/local/lib/node_modules"
+export BUNDLE_JOBS="4"
 
 alias l="ls -alh"
 alias be="bundle exec"
@@ -52,6 +53,7 @@ function rbenv-setup()
 {
   rbenv install -s
   rbenv local
+  gem update --system
   gem install bundler
   bundle
 }
