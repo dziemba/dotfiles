@@ -114,7 +114,6 @@ npm install -g grunt-cli
 
 npm install -g cordova
 npm install -g ionic
-npm install -g generator-ionic
 npm install -g ios-sim
 npm install -g ios-deploy
 
