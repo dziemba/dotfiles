@@ -65,6 +65,7 @@ function rails-remigrate()
   git co master -- db/structure.sql
   ber db:setup
   ber db:migrate
+  betest rake db:drop db:setup
 }
 
 function b2d() {
