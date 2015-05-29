@@ -18,6 +18,11 @@ let g:ctrlp_map = ',t'
 nnoremap <silent> ,t :CtrlP<CR>
 noremap <silent> ,b :CtrlPBuffer<cr>)
 
+let g:syntastic_mode_map = {
+  \ 'mode': 'active',
+  \ 'passive_filetypes': ['scala']
+  \ }
+
 let g:lightline = {
   \ 'colorscheme': 'wombat',
   \ 'component': {
