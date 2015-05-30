@@ -20,7 +20,7 @@ noremap <silent> ,b :CtrlPBuffer<cr>)
 
 let g:syntastic_mode_map = {
   \ 'mode': 'active',
-  \ 'passive_filetypes': ['scala']
+  \ 'passive_filetypes': ['scala', 'html']
   \ }
 
 let g:lightline = {
