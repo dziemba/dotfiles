@@ -17,6 +17,7 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 let g:ctrlp_map = ',t'
 nnoremap <silent> ,t :CtrlP<CR>
 noremap <silent> ,b :CtrlPBuffer<cr>)
+let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files . --cached --exclude-standard --others']
 
 let g:syntastic_mode_map = {
   \ 'mode': 'active',
