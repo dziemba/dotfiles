@@ -14,6 +14,8 @@ shopt -s globstar
 
 [ -e /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
+ulimit -n 10240
+
 export EDITOR="vim"
 export CLICOLOR=1
 export LSCOLORS="gxfxbEaEBxxEhEhBaDaCaD"
