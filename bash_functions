@@ -54,7 +54,7 @@ function loop() {
 }
 
 function wtc() {
-  curl -s whatthecommit.com |egrep '^<p>' |sed 's/^<p>\(.*\)/\1/g'
+  curl whatthecommit.com/index.txt
 }
 
 function dot-update() {
