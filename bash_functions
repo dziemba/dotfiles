@@ -56,3 +56,9 @@ function loop() {
 function wtc() {
   curl -s whatthecommit.com |egrep '^<p>' |sed 's/^<p>\(.*\)/\1/g'
 }
+
+function dot-update() {
+  cd ~/.dotfiles
+  git up
+  ./install.sh
+}
