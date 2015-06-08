@@ -41,15 +41,12 @@ hi ColorColumn ctermbg=darkgray
 hi LineNr ctermfg=darkgray
 
 let html_no_rendering = 1
-let g:netrw_liststyle = 3
 
 noremap ° :tabp<cr>
 noremap <S-TAB> :tabn<cr>
-noremap <F2> :Texplore<cr>
 nnoremap <silent> vv <C-w>v
 nnoremap <silent> ss <C-w>s
 nmap <silent> // :nohlsearch<CR>
-nmap <silent> ,vr :so %<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
 
