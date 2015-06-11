@@ -34,3 +34,5 @@ ls = log --stat --decorate
 auto = false
 [git-up "fetch"]
 all = true
+[git-up "bundler"]
+check = true
