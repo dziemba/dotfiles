@@ -30,6 +30,7 @@ Bundle "Raimondi/delimitMate"
 Bundle "jistr/vim-nerdtree-tabs"
 Bundle "scrooloose/nerdtree"
 Bundle "kien/ctrlp.vim"
+Bundle "pbrisbin/vim-mkdir"
 
 Bundle "vim-ruby/vim-ruby"
 Bundle "tpope/vim-rails"
