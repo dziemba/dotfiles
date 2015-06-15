@@ -53,13 +53,13 @@ brew install boot2docker
 brew install jq
 brew install scala
 brew install sbt
-brew install cowsay
 brew install elixir
 brew install s3cmd
 brew install wrk
 brew install phantomjs
 brew install llvm
 brew install heroku
+brew install ansible
 
 brew prune
 brew cask cleanup
