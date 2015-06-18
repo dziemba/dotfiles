@@ -29,6 +29,7 @@ wip = !git add -A && git commit -m 'WIP'
 cp = cherry-pick
 rh = reset --hard
 ls = log --stat --decorate
+allmine = rebase -i -x 'git amend --no-edit --reset-author'
 
 [git-up "rebase"]
 auto = false
