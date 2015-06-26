@@ -28,4 +28,4 @@ fi
 ./ssl.sh
 ./config.sh
 ./vim.sh
-./iterm.sh
+./iterm.sh import
