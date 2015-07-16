@@ -97,6 +97,7 @@ brew cask install inkscape
 brew cask install psequel
 brew cask install ipvanish-vpn
 brew cask install insomniax
+brew cask install atom
 
 # Brew fonts
 brew tap caskroom/fonts
