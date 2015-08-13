@@ -31,6 +31,7 @@ cp = cherry-pick
 rh = reset --hard
 ls = log --stat --decorate
 allmine = rebase -i -x 'git amend --no-edit --reset-author'
+sh = show
 
 [git-up "rebase"]
 auto = false
