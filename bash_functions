@@ -58,7 +58,8 @@ function wtc() {
 }
 
 function dot-update() {
-  cd ~/.dotfiles
+  pushd ~/.dotfiles
   git up
   ./install.sh
+  popd
 }
