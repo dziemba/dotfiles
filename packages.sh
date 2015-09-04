@@ -60,6 +60,7 @@ brew install phantomjs
 brew install llvm
 brew install heroku
 brew install ansible
+brew install markdown
 
 brew prune
 brew cask cleanup
