@@ -98,6 +98,7 @@ brew cask install inkscape
 brew cask install psequel
 brew cask install ipvanish-vpn
 brew cask install atom
+brew cask install keepingyouawake
 
 # Brew fonts
 brew tap caskroom/fonts
