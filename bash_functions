@@ -42,7 +42,7 @@ function rails-remigrate()
 }
 
 function b2d() {
-  $(boot2docker shellinit)
+  eval $(docker-machine env dev)
 }
 
 function loop() {

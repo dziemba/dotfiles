@@ -49,7 +49,8 @@ brew install awscli
 brew install mysql
 brew install hiredis
 brew install gcc
-brew install boot2docker
+brew install docker
+brew install docker-machine
 brew install jq
 brew install scala
 brew install sbt
