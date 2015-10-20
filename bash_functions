@@ -4,6 +4,7 @@ alias betest="RAILS_ENV=test bundle exec"
 alias ber="bundle exec rake"
 alias beguard="bundle exec guard -c"
 alias bespec="bundle exec rspec"
+alias sspec="spring rspec"
 
 alias dropbox="cd $HOME/Dropbox"
 alias dev="cd $HOME/dev"
