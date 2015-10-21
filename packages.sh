@@ -8,6 +8,7 @@ brew install caskroom/cask/brew-cask
 
 # required for some brew packages
 brew cask install xquartz
+brew cask install tuntap
 
 brew install bash
 brew install coreutils
@@ -58,7 +59,8 @@ brew install sbt
 brew install elixir
 brew install s3cmd
 brew install wrk
-brew install phantomjs
+# TODO: re-add when package is fixed
+#brew install phantomjs
 brew install llvm
 brew install heroku
 brew install ansible
