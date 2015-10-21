@@ -138,9 +138,6 @@ lunchy install /usr/local/opt/redis/homebrew.mxcl.redis.plist
 lunchy start postgres
 lunchy start redis
 
-grep /usr/local/bin/bash /etc/shells || echo /usr/local/bin/bash |sudo tee -a /etc/shells
-sudo dscl . -change /Users/$USER UserShell /bin/bash /usr/local/bin/bash 2>/dev/null || true
-
 sudo cp /usr/local/opt/dnsmasq/*.plist /Library/LaunchDaemons
 sudo lunchy start dnsmasq
 sudo mkdir -p /etc/resolver
