@@ -41,7 +41,6 @@ brew install watch
 brew install wget
 brew install wine
 brew install postgresql
-brew install qt
 brew install redis
 brew install direnv
 brew install dnsmasq
@@ -65,6 +64,11 @@ brew install llvm
 brew install heroku
 brew install ansible
 brew install markdown
+
+# Qt
+brew uninstall qt --force
+brew install qt5
+brew link qt5 --force
 
 brew prune
 brew cask cleanup
