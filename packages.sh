@@ -2,6 +2,7 @@
 
 # Brew
 brew update
+brew doctor || sleep 10
 brew upgrade --all
 
 brew install caskroom/cask/brew-cask
@@ -73,7 +74,7 @@ brew link qt5 --force
 brew prune
 brew cask cleanup
 brew cleanup
-brew doctor
+brew doctor || sleep 10
 
 # Brew Cask
 brew cask install google-chrome
