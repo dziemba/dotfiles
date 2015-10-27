@@ -108,6 +108,7 @@ brew cask install psequel
 brew cask install ipvanish-vpn
 brew cask install atom
 brew cask install keepingyouawake
+brew cask install flux
 
 # Brew fonts
 brew tap caskroom/fonts
