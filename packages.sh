@@ -71,6 +71,10 @@ brew uninstall qt --force
 brew install qt5
 brew link qt5 --force
 
+# Brew Fixes
+brew install openssl
+brew link openssl --force
+
 brew prune
 brew cask cleanup
 brew cleanup
