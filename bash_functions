@@ -13,6 +13,7 @@ alias godev="cd $GOPATH/src/github.com"
 alias scan="scanimage --mode Color --resolution 300 |convert - Scan\$(date +%s).jpg"
 alias rubocop-diff-master="rubocop -R --force-exclusion \
   \$(ls \$(git diff --name-only master HEAD |grep \\\\.rb\$ |grep -v ^db/))"
+alias elsterformular="wine 'c:/Program Files/ElsterFormular/bin/pica.exe'"
 
 function git-clean-branches
 {
