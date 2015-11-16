@@ -66,6 +66,7 @@ brew install heroku
 brew install ansible
 brew install markdown
 brew install valgrind
+brew install exiftool
 
 # Qt
 brew uninstall qt --force
