@@ -3,7 +3,7 @@ export PS1='\u@\h:\w$(__git_ps1 " (%s) ")\$ '
 
 export PROMPT_COMMAND='echo -ne "\033];${PWD##*/}\007"; ':"$PROMPT_COMMAND";
 
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/opt/ruby/bin:$HOME/dev/Go/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/ruby/bin:$HOME/dev/Go/bin
 unset HISTFILE
 
 export LC_ALL=en_US.UTF-8
