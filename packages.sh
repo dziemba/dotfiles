@@ -49,7 +49,6 @@ brew install the_silver_searcher
 brew install awscli
 brew install mysql
 brew install hiredis
-brew install gcc
 brew install docker
 brew install docker-machine
 brew install docker-compose
