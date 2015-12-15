@@ -67,6 +67,7 @@ brew install markdown
 brew install valgrind
 brew install exiftool
 brew install protobuf
+brew install tidy-html5
 
 # Qt
 brew uninstall qt --force
