@@ -66,6 +66,7 @@ brew install ansible
 brew install markdown
 brew install valgrind
 brew install exiftool
+brew install protobuf
 
 # Qt
 brew uninstall qt --force
