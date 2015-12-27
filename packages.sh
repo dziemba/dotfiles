@@ -30,7 +30,6 @@ brew install openssl
 brew install openvpn
 brew install pngcrush
 brew install rbenv
-brew install rbenv-gem-rehash
 brew install rdesktop
 brew install rename
 brew install ruby
