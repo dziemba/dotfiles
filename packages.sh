@@ -1,6 +1,10 @@
 #!/bin/bash -xe
 
 # Brew
+if [ ! -f /usr/local/bin/brew ]; then
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
 brew update
 brew doctor || sleep 10
 brew upgrade --all
