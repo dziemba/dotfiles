@@ -1,19 +1,23 @@
-#!/bin/bash -xe
+#!/bin/bash -e
 
 # Brew
 if [ ! -f /usr/local/bin/brew ]; then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+set -x
+
 brew update
 brew doctor || sleep 10
 brew upgrade --all
 
 brew install caskroom/cask/brew-cask
+brew tap homebrew/x11
 
 # required for some brew packages
 brew cask install xquartz
 brew cask install tuntap
+brew cask install java
 
 brew install bash
 brew install coreutils
@@ -99,7 +103,6 @@ brew cask install vagrant
 brew cask install transmission
 brew cask install keka
 brew cask install torbrowser
-brew cask install pdftk
 brew cask install beatport-pro
 brew cask install rekordbox
 brew cask install skype
@@ -111,7 +114,6 @@ brew cask install hipchat
 brew cask install pgadmin3
 brew cask install wireshark
 brew cask install audacity
-brew cask install java
 brew cask install gpgtools
 brew cask install inkscape
 brew cask install psequel
