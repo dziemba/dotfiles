@@ -18,6 +18,9 @@ let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files . --cached --exclude
 
 let vim_markdown_preview_hotkey='<C-m>'
 
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
 let g:syntastic_javascript_checkers = ['standard']
 let g:syntastic_mode_map = {
   \ 'mode': 'active',
