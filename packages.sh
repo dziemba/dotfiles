@@ -76,6 +76,7 @@ brew install exiftool
 brew install protobuf
 brew install tidy-html5
 brew install gawk
+brew install graphviz
 
 # Qt
 brew uninstall qt --force
