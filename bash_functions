@@ -1,4 +1,6 @@
 alias l="ls -alh"
+alias psg="ps aux |grep"
+
 alias be="bundle exec"
 alias betest="RAILS_ENV=test bundle exec"
 alias ber="bundle exec rake"
