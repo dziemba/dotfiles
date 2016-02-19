@@ -39,3 +39,6 @@ auto = false
 all = true
 [git-up "bundler"]
 check = true
+
+[http]
+cookiefile = ~/.gitcookies
