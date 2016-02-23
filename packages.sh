@@ -77,6 +77,7 @@ brew install tidy-html5
 brew install gawk
 brew install graphviz
 brew install glide
+brew install apache-spark
 
 # Qt
 brew uninstall qt --force
