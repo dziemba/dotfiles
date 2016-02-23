@@ -65,8 +65,7 @@ brew install sbt
 brew install elixir
 brew install s3cmd
 brew install wrk
-# TODO: re-add when package is fixed
-#brew install phantomjs
+brew install phantomjs
 brew install llvm
 brew install heroku
 brew install ansible
