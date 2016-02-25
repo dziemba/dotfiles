@@ -45,10 +45,6 @@ function rails-remigrate()
   betest rake db:drop db:setup
 }
 
-function b2d() {
-  eval $(docker-machine env dev)
-}
-
 function loop() {
   while true; do
     $@
