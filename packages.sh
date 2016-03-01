@@ -140,6 +140,7 @@ npm install -g standard
 # Ruby
 rbenv install -s $(cat ruby-version)
 rbenv global $(cat ruby-version)
+eval "$(rbenv init -)"
 gem update --system
 
 # Ruby Packages (with executables only, use bundler otherwise!)
