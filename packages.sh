@@ -124,6 +124,7 @@ brew cask install ipvanish-vpn
 brew cask install atom
 brew cask install keepingyouawake
 brew cask install flux
+brew cask install licecap
 
 # Brew fonts
 brew tap caskroom/fonts
