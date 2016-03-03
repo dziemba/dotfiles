@@ -78,6 +78,7 @@ brew install gawk
 brew install graphviz
 brew install glide
 brew install apache-spark
+brew install binutils
 
 # Qt
 brew uninstall qt --force
