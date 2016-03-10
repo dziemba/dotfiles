@@ -17,6 +17,21 @@ alias rubocop-diff-master="rubocop -R --force-exclusion \
   \$(ls \$(git diff --name-only master HEAD |grep \\\\.rb\$ |grep -v ^db/))"
 alias elsterformular="wine 'c:/Program Files/ElsterFormular/bin/pica.exe'"
 
+function psk() {
+  P=$(ps ux |grep $1 |grep -v " grep")
+  echo "$P"
+  [ "$P" == "" ] && return
+
+  echo -en "\nEnter Y to kill all those processes: "
+  read OK
+  if [ "$OK" == "Y" ]; then
+    for PID in $(echo "$P" |cut -d' ' -f2); do
+      echo "kill $PID"
+      kill $PID
+    done
+  fi
+}
+
 function git-clean-branches
 {
   git branch --merged master |grep -v master$ |xargs git branch -d
