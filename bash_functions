@@ -13,8 +13,6 @@ alias dev="cd $HOME/dev"
 alias godev="cd $GOPATH/src/github.com"
 
 alias scan="scanimage --mode Color --resolution 300 |convert - Scan\$(date +%s).jpg"
-alias rubocop-diff-master="rubocop -R --force-exclusion \
-  \$(ls \$(git diff --name-only master HEAD |grep \\\\.rb\$ |grep -v ^db/))"
 alias elsterformular="wine 'c:/Program Files/ElsterFormular/bin/pica.exe'"
 
 function psk() {
@@ -30,15 +28,6 @@ function psk() {
       kill $PID
     done
   fi
-}
-
-function git-clean-branches
-{
-  git branch --merged master |grep -v master$ |xargs git branch -d
-  git branch -r |grep -v master$ |xargs git branch -rd
-  git fetch --all
-  git gc
-  git branch -a
 }
 
 function rbenv-setup()
