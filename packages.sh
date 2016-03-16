@@ -138,6 +138,7 @@ npm install -g npm
 npm install -g bower
 npm install -g npm-check-updates
 npm install -g standard
+npm install -g standard-format
 
 # Ruby
 rbenv install -s $(cat ruby-version)
