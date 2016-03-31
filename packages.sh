@@ -11,7 +11,6 @@ brew update
 brew doctor || sleep 10
 brew upgrade --all
 
-brew install caskroom/cask/brew-cask
 brew tap homebrew/x11
 
 # required for some brew packages
