@@ -79,6 +79,7 @@ brew install glide
 brew install apache-spark
 brew install binutils
 brew install aria2
+brew install upx
 
 # Qt
 brew uninstall qt --force
