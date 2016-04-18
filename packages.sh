@@ -78,6 +78,7 @@ brew install graphviz
 brew install glide
 brew install apache-spark
 brew install binutils
+brew install aria2
 
 # Qt
 brew uninstall qt --force
