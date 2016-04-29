@@ -28,6 +28,7 @@ Bundle "elixir-lang/vim-elixir"
 Bundle "derekwyatt/vim-scala"
 Bundle "Raimondi/delimitMate"
 Bundle "leafgarland/typescript-vim"
+Bundle "mxw/vim-jsx"
 Bundle "mtscout6/vim-cjsx"
 
 Bundle "jistr/vim-nerdtree-tabs"
