@@ -127,6 +127,7 @@ brew cask install atom
 brew cask install keepingyouawake
 brew cask install flux
 brew cask install licecap
+brew cask install slack
 
 # Brew fonts
 brew tap caskroom/fonts
