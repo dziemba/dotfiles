@@ -115,7 +115,6 @@ brew cask install google-drive
 brew cask install gimp
 brew cask install firefox
 brew cask install flash-player
-brew cask install hipchat
 brew cask install pgadmin3
 brew cask install wireshark
 brew cask install audacity
