@@ -8,6 +8,8 @@ alias beguard="bundle exec guard -c"
 alias bespec="bundle exec rspec"
 alias sspec="spring rspec"
 
+alias nr="npm run"
+
 alias dropbox="cd $HOME/Dropbox"
 alias dev="cd $HOME/dev"
 alias godev="cd $GOPATH/src/github.com"
