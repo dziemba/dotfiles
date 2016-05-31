@@ -80,6 +80,7 @@ brew install apache-spark
 brew install binutils
 brew install aria2
 brew install upx
+brew install tree
 
 # Qt
 brew uninstall qt --force
