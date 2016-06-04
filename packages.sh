@@ -12,6 +12,7 @@ brew doctor || sleep 10
 brew upgrade --all
 
 brew tap homebrew/x11
+brew tap homebrew/science
 
 # required for some brew packages
 brew cask install xquartz
@@ -81,6 +82,7 @@ brew install binutils
 brew install aria2
 brew install upx
 brew install tree
+brew install octave --without-gui
 
 # Qt
 brew uninstall qt --force
