@@ -18,6 +18,7 @@ brew tap homebrew/science
 brew cask install xquartz
 brew cask install tuntap
 brew cask install java
+brew cask install aquaterm
 
 brew install bash
 brew install coreutils
@@ -82,6 +83,7 @@ brew install binutils
 brew install aria2
 brew install upx
 brew install tree
+brew install gnuplot --with-aquaterm
 brew install octave --without-gui
 
 # Qt
