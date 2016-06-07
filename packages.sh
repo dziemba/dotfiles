@@ -83,6 +83,8 @@ brew install binutils
 brew install aria2
 brew install upx
 brew install tree
+
+brew install qrupdate --build-from-source
 brew install gnuplot --with-aquaterm
 brew install octave --without-gui
 
