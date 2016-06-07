@@ -52,4 +52,4 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 source ~/.vim/vundles.vim
 source ~/.vim/settings.vim
-
+source ~/.vim/commands.vim
