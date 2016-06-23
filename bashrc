@@ -25,13 +25,7 @@ export GOPATH="$HOME/dev/Go"
 export NODE_PATH="/usr/local/lib/node_modules"
 export BUNDLE_JOBS="4"
 
-
-if [ "$(docker-machine status dev)" != "Running" ]; then
-  docker-machine start dev
-fi
-
 eval "$(rbenv init -)"
 eval "$(direnv hook bash)"
-eval $(docker-machine env dev)
 
 . ~/.dotfiles/bash_functions

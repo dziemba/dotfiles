@@ -57,9 +57,6 @@ brew install the_silver_searcher
 brew install awscli
 brew install mysql
 brew install hiredis
-brew install docker
-brew install docker-machine
-brew install docker-compose
 brew install jq
 brew install scala
 brew install sbt
@@ -134,6 +131,7 @@ brew cask install keepingyouawake
 brew cask install flux
 brew cask install licecap
 brew cask install slack
+brew cask install docker
 
 # Brew fonts
 brew tap caskroom/fonts
