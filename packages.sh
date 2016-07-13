@@ -25,7 +25,6 @@ brew install coreutils
 brew install findutils
 brew install bash-completion
 brew install git
-brew install hub
 brew install gist
 brew install gnu-sed
 brew install go
@@ -108,7 +107,6 @@ brew cask install dropbox
 brew cask install keepassx
 brew cask install libreoffice
 brew cask install vlc
-brew cask install vagrant
 brew cask install transmission
 brew cask install keka
 brew cask install torbrowser
@@ -129,7 +127,6 @@ brew cask install ipvanish-vpn
 brew cask install atom
 brew cask install keepingyouawake
 brew cask install flux
-brew cask install licecap
 brew cask install slack
 brew cask install docker
 
@@ -157,8 +154,6 @@ gem update --system
 gem install bundler
 gem install rails
 gem install rake
-gem install thor
-gem install rerun
 gem install lunchy
 gem install rubocop
 gem install pry
