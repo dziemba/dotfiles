@@ -128,6 +128,7 @@ brew cask install keepingyouawake
 brew cask install flux
 brew cask install slack
 brew cask install docker
+brew cask install vagrant
 
 # Brew fonts
 brew tap caskroom/fonts
