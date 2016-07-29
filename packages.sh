@@ -13,6 +13,7 @@ brew upgrade --all
 
 brew tap homebrew/x11
 brew tap homebrew/science
+brew tap homebrew/versions
 
 # required for some brew packages
 brew cask install xquartz
@@ -85,9 +86,9 @@ brew install gnuplot --with-aquaterm
 brew install octave --without-gui
 
 # Qt
-brew uninstall qt --force
-brew install qt5
-brew link qt5 --force
+brew uninstall qt qt5 --force
+brew install qt55
+brew link qt55 --force
 
 # Brew Fixes
 brew install openssl
