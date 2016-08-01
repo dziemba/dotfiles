@@ -168,7 +168,7 @@ gem update
 export GOPATH="$HOME/.gotools"
 mkdir -p $GOPATH
 go get -u github.com/alecthomas/gometalinter
-$GOPATH/bin/gometalinter -iu
+$GOPATH/bin/gometalinter -i
 )
 
 # Postinstall
