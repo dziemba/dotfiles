@@ -130,7 +130,7 @@ brew cask install flux
 brew cask install slack
 brew cask install docker
 brew cask install vagrant
-brew cask install anaconda
+[ -d ~/anaconda3 ] || brew cask install anaconda
 
 # Brew fonts
 brew tap caskroom/fonts
