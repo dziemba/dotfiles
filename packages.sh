@@ -12,14 +12,12 @@ brew doctor || sleep 10
 brew upgrade --all
 
 brew tap homebrew/x11
-brew tap homebrew/science
 brew tap homebrew/versions
 
 # required for some brew packages
 brew cask install xquartz
 brew cask install tuntap
 brew cask install java
-brew cask install aquaterm
 
 brew install bash
 brew install coreutils
@@ -80,10 +78,6 @@ brew install binutils
 brew install aria2
 brew install upx
 brew install tree
-
-brew install qrupdate --build-from-source
-brew install gnuplot --with-aquaterm
-brew install octave --without-gui
 
 # Qt
 brew uninstall qt qt5 --force
