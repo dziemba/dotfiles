@@ -125,6 +125,7 @@ brew cask install slack
 brew cask install docker
 brew cask install vagrant
 [ -d ~/anaconda3 ] || brew cask install anaconda
+brew cask install soundflower
 
 # Brew fonts
 brew tap caskroom/fonts
