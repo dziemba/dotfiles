@@ -32,7 +32,7 @@ ra = rebase --abort
 wip = !git add -A && git commit -m 'WIP'
 cp = cherry-pick
 rh = reset --hard
-ls = log --stat --decorate
+ls = log --stat --decorate --graph
 allmine = rebase -i -x 'git amend --no-edit --reset-author'
 sh = show
 
