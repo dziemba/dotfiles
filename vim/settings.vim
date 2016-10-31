@@ -24,6 +24,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['standard']
 let g:syntastic_javascript_standard_exec = 'standard-babel'
 let g:syntastic_go_checkers = ['gofmt', 'golint', 'govet']
+let g:syntastic_python_checkers = ['python']
 let g:syntastic_mode_map = {
   \ 'mode': 'active',
   \ 'passive_filetypes': ['scala', 'html']
