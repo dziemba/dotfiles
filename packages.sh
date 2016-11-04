@@ -78,6 +78,7 @@ brew install binutils
 brew install aria2
 brew install upx
 brew install tree
+brew install maven
 
 # Qt
 brew uninstall qt qt5 --force
