@@ -66,7 +66,6 @@ brew install llvm
 brew install heroku
 brew install ansible
 brew install markdown
-brew install valgrind
 brew install exiftool
 brew install protobuf
 brew install tidy-html5
