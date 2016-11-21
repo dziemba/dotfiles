@@ -13,6 +13,7 @@ brew upgrade --all
 
 brew tap homebrew/x11
 brew tap homebrew/versions
+brew tap caskroom/versions
 
 # required for some brew packages
 brew cask install xquartz
@@ -126,6 +127,7 @@ brew cask install docker
 brew cask install vagrant
 [ -d ~/anaconda3 ] || brew cask install anaconda
 brew cask install soundflower
+brew cask install intellij-idea-ce
 
 # Brew fonts
 brew tap caskroom/fonts
