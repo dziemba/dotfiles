@@ -82,9 +82,8 @@ brew install maven
 brew install yarn
 
 # Qt
-brew uninstall qt qt5 --force
-brew install qt55
-brew link qt55 --force
+brew install qt5
+brew link qt5 --force
 
 # Brew Fixes
 brew install openssl
