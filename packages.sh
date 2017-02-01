@@ -12,8 +12,6 @@ brew doctor || sleep 10
 brew upgrade --all
 
 brew tap homebrew/x11
-brew tap homebrew/versions
-brew tap caskroom/versions
 
 # required for some brew packages
 brew cask install xquartz
