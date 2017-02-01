@@ -35,13 +35,7 @@ rh = reset --hard
 ls = log --stat --decorate --graph
 allmine = rebase -i -x 'git amend --no-edit --reset-author'
 sh = show
-
-[git-up "rebase"]
-auto = false
-[git-up "fetch"]
-all = true
-[git-up "bundler"]
-check = true
+up = pull --rebase --autostash
 
 [http]
 cookiefile = ~/.gitcookies

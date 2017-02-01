@@ -145,7 +145,6 @@ gem install rake
 gem install lunchy
 gem install rubocop
 gem install pry
-gem install git-up
 gem install benchmark-ips
 
 gem update
