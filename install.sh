@@ -25,7 +25,6 @@ fi
 
 ./link.sh
 ./packages.sh
-./ssl.sh
 ./config.sh
 ./vim.sh
 ./iterm.sh import
