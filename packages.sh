@@ -51,7 +51,6 @@ brew install wine
 brew install postgresql
 brew install redis
 brew install direnv
-brew install dnsmasq
 brew install the_silver_searcher
 brew install awscli
 brew install mysql
@@ -159,11 +158,6 @@ lunchy install /usr/local/opt/postgresql/homebrew.mxcl.postgresql.plist
 lunchy install /usr/local/opt/redis/homebrew.mxcl.redis.plist
 lunchy start postgres
 lunchy start redis
-
-sudo cp /usr/local/opt/dnsmasq/*.plist /Library/LaunchDaemons
-sudo lunchy start dnsmasq
-sudo mkdir -p /etc/resolver
-echo "nameserver 127.0.0.1" |sudo tee /etc/resolver/dev > /dev/null
 
 sudo chown root /usr/local/bin/htop
 sudo chmod +s /usr/local/bin/htop
