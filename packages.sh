@@ -154,14 +154,6 @@ gem install benchmark-ips
 
 gem update
 
-# Go packages
-(
-export GOPATH="$HOME/.gotools"
-mkdir -p $GOPATH
-go get -u github.com/alecthomas/gometalinter
-$GOPATH/bin/gometalinter -i
-)
-
 # Postinstall
 lunchy install /usr/local/opt/postgresql/homebrew.mxcl.postgresql.plist
 lunchy install /usr/local/opt/redis/homebrew.mxcl.redis.plist
