@@ -94,7 +94,6 @@ brew cask install google-chrome
 brew cask install iterm2
 brew cask install virtualbox
 brew cask install dropbox
-brew cask install keepassx
 brew cask install libreoffice
 brew cask install vlc
 brew cask install transmission
