@@ -13,5 +13,4 @@ rm -rf .vim
 ln -sf .dotfiles/vim .vim
 
 mkdir -p /usr/local/etc
-ln -sf $HOME/.dotfiles/dnsmasq.conf /usr/local/etc/dnsmasq.conf
 ln -sf $HOME/.dotfiles/iterm2.plist $HOME/Library/Preferences/com.googlecode.iterm2.plist
