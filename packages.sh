@@ -119,7 +119,7 @@ brew cask install intellij-idea-ce
 
 # Brew fonts
 brew tap caskroom/fonts
-brew cask install font-sauce-code-powerline
+brew cask install font-source-code-pro-for-powerline
 
 brew cask cleanup
 
