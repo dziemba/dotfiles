@@ -105,7 +105,6 @@ brew cask install gimp
 brew cask install firefox
 brew cask install pgadmin3
 brew cask install wireshark
-brew cask install audacity
 brew cask install gpgtools
 brew cask install inkscape
 brew cask install psequel
