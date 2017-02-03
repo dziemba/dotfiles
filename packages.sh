@@ -152,8 +152,10 @@ gem update
 # Postinstall
 lunchy install /usr/local/opt/postgresql/homebrew.mxcl.postgresql.plist
 lunchy install /usr/local/opt/redis/homebrew.mxcl.redis.plist
+lunchy install /usr/local/opt/mysql/homebrew.mxcl.mysql.plist
 lunchy start postgres
 lunchy start redis
+lunchy start mysql
 
 sudo chown root /usr/local/bin/htop
 sudo chmod +s /usr/local/bin/htop
