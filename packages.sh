@@ -116,6 +116,7 @@ brew cask install docker
 brew cask install vagrant
 [ -d ~/anaconda3 ] || brew cask install anaconda
 brew cask install intellij-idea-ce
+brew cask install spectacle
 
 # Brew fonts
 brew tap caskroom/fonts
