@@ -119,6 +119,7 @@ brew cask install vagrant
 brew cask install intellij-idea-ce
 brew cask install spectacle
 brew cask install kid3
+brew cask install sequel-pro
 
 # Brew fonts
 brew tap caskroom/fonts
