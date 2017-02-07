@@ -9,7 +9,7 @@ set -x
 
 brew update
 brew doctor || sleep 10
-brew upgrade --all
+brew upgrade
 
 brew tap homebrew/x11
 
