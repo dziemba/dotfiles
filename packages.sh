@@ -77,6 +77,7 @@ brew install upx
 brew install tree
 brew install maven
 brew install yarn
+brew install memcached
 
 # Brew Fixes
 brew install openssl
@@ -157,6 +158,7 @@ lunchy install /usr/local/opt/mysql/homebrew.mxcl.mysql.plist
 lunchy start postgres
 lunchy start redis
 lunchy start mysql
+brew services start memcached
 
 sudo chown root /usr/local/bin/htop
 sudo chmod +s /usr/local/bin/htop
