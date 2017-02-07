@@ -145,7 +145,6 @@ gem update --system
 gem install bundler
 gem install rails
 gem install rake
-gem install lunchy
 gem install rubocop
 gem install pry
 gem install benchmark-ips
@@ -153,12 +152,9 @@ gem install benchmark-ips
 gem update
 
 # Postinstall
-lunchy install /usr/local/opt/postgresql/homebrew.mxcl.postgresql.plist
-lunchy install /usr/local/opt/redis/homebrew.mxcl.redis.plist
-lunchy install /usr/local/opt/mysql/homebrew.mxcl.mysql.plist
-lunchy start postgres
-lunchy start redis
-lunchy start mysql
+brew services start postgresql
+brew services start redis
+brew services start mysql
 brew services start memcached
 
 sudo chown root /usr/local/bin/htop
