@@ -69,3 +69,10 @@ function dot-update() {
   ./install.sh
   popd
 }
+
+function devtmp() {
+  cd $HOME/dev
+  rm -rf tmp
+  mkdir tmp
+  cd tmp
+}
