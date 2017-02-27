@@ -78,6 +78,7 @@ brew install tree
 brew install maven
 brew install yarn
 brew install memcached
+brew install rabbitmq
 
 # Brew Fixes
 brew install openssl
