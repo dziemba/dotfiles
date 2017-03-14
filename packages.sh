@@ -79,6 +79,7 @@ brew install maven
 brew install yarn
 brew install memcached
 brew install rabbitmq
+brew install vault
 
 # Brew Fixes
 brew install openssl
