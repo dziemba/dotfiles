@@ -154,10 +154,5 @@ gem install benchmark-ips
 gem update
 
 # Postinstall
-brew services start postgresql
-brew services start redis
-brew services start mysql
-brew services start memcached
-
 sudo chown root /usr/local/bin/htop
 sudo chmod +s /usr/local/bin/htop
