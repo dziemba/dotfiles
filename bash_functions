@@ -76,3 +76,13 @@ function devtmp() {
   mkdir tmp
   cd tmp
 }
+
+function docker-machine-create() {
+  docker-machine rm -f default || true
+  docker-machine create default \
+    -d virtualbox \
+    --virtualbox-memory 2048 \
+    --virtualbox-cpu-count 2 \
+    --virtualbox-boot2docker-url \
+      https://github.com/boot2docker/boot2docker/releases/download/v17.03.1-ce/boot2docker.iso
+}

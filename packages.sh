@@ -80,6 +80,9 @@ brew install yarn
 brew install memcached
 brew install rabbitmq
 brew install vault
+brew install docker
+brew install docker-machine
+brew install docker-compose
 
 # Brew Fixes
 brew install openssl
@@ -115,7 +118,6 @@ brew cask install atom
 brew cask install keepingyouawake
 brew cask install flux
 brew cask install slack
-brew cask install docker
 brew cask install vagrant
 [ -d ~/anaconda3 ] || brew cask install anaconda
 brew cask install intellij-idea-ce
@@ -154,5 +156,7 @@ gem install benchmark-ips
 gem update
 
 # Postinstall
+brew services start docker-machine
+
 sudo chown root /usr/local/bin/htop
 sudo chmod +s /usr/local/bin/htop
