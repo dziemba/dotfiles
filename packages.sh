@@ -82,6 +82,7 @@ brew install rabbitmq
 brew install vault
 brew install docker
 brew install docker-machine
+brew install docker-machine-nfs
 brew install docker-compose
 
 # Brew Fixes

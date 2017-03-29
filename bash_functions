@@ -85,4 +85,5 @@ function docker-machine-create() {
     --virtualbox-cpu-count 2 \
     --virtualbox-boot2docker-url \
       https://github.com/boot2docker/boot2docker/releases/download/v17.03.1-ce/boot2docker.iso
+  docker-machine-nfs default
 }
