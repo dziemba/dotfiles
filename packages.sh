@@ -84,6 +84,7 @@ brew install docker
 brew install docker-machine
 brew install docker-machine-nfs
 brew install docker-compose
+brew install pwgen
 
 # Brew Fixes
 brew install openssl
