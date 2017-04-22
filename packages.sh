@@ -85,6 +85,7 @@ brew install docker-machine
 brew install docker-machine-nfs
 brew install docker-compose
 brew install pwgen
+brew install kafka
 
 # Brew Fixes
 brew install openssl
