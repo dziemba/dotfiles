@@ -5,26 +5,27 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
-Bundle "gmarik/Vundle.vim"
+Bundle "VundleVim/Vundle.vim"
 
+" UI
 Bundle "altercation/vim-colors-solarized"
 Bundle "itchyny/lightline.vim"
 
+" Git
 Bundle "tpope/vim-fugitive"
-Bundle "mattn/gist-vim"
 
+" Languages / Syntax
 Bundle "scrooloose/syntastic"
 Bundle "fatih/vim-go"
 Bundle "derekwyatt/vim-scala"
-
-Bundle "scrooloose/nerdtree"
-Bundle "kien/ctrlp.vim"
-Bundle "pbrisbin/vim-mkdir"
-
 Bundle "vim-ruby/vim-ruby"
-Bundle "tpope/vim-rails"
 
-Bundle "rking/ag.vim"
+" Files
+Bundle "scrooloose/nerdtree"
+Bundle "ctrlpvim/ctrlp.vim"
+
+" Search
+Bundle "mileszs/ack.vim"
 
 call vundle#end()
 filetype plugin indent on

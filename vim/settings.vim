@@ -8,9 +8,8 @@ let g:NERDTreeWinSize = 30
 let g:nerdtree_tabs_open_on_gui_startup = 0
 let g:nerdtree_tabs_focus_on_files = 1
 
-nmap ,ag :Ag ""<Left>
-set grepprg=ag
-let g:grep_cmd_opts = '--line-numbers --noheading'
+nmap ,ag :Ack! ""<Left>
+let g:ackprg = 'ag --vimgrep --smart-case'
 
 nnoremap <silent> ,t :CtrlP<CR>
 noremap <silent> ,b :CtrlPBuffer<cr>)

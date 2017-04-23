@@ -42,8 +42,6 @@ hi LineNr ctermfg=darkgray
 
 let html_no_rendering = 1
 
-noremap ° :tabp<cr>
-noremap <S-TAB> :tabn<cr>
 nnoremap <silent> vv <C-w>v
 nnoremap <silent> ss <C-w>s
 nmap <silent> // :nohlsearch<CR>
@@ -52,4 +50,3 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 source ~/.vim/vundles.vim
 source ~/.vim/settings.vim
-source ~/.vim/commands.vim
