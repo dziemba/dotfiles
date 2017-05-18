@@ -88,3 +88,7 @@ function docker-machine-create() {
       https://github.com/boot2docker/boot2docker/releases/download/v17.05.0-ce/boot2docker.iso
   docker-machine-nfs default
 }
+
+function docker-killall() {
+  docker ps --format {{.ID}} |xargs -n1 docker kill
+}
