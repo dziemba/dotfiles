@@ -29,7 +29,7 @@ rom = !git fetch --all && git rebase origin/master
 rc = rebase --continue
 rs = rebase --skip
 ra = rebase --abort
-wip = !git add -A && git commit -m 'WIP'
+wip = !"MSG=$(curl http://whatthecommit.com/index.txt) && git add -A && git commit -m \"$MSG\""
 cp = cherry-pick
 rh = reset --hard
 ls = log --stat --decorate --graph
