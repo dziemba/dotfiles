@@ -85,7 +85,7 @@ function docker-machine-create() {
     --virtualbox-memory 6144 \
     --virtualbox-no-share \
     --virtualbox-boot2docker-url \
-      https://github.com/boot2docker/boot2docker/releases/download/v17.05.0-ce/boot2docker.iso
+      https://github.com/boot2docker/boot2docker/releases/download/v17.06.0-ce/boot2docker.iso
   docker-machine-nfs default
 }
 
