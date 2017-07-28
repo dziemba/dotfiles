@@ -49,7 +49,6 @@ brew install wine
 brew install postgresql
 brew install redis
 brew install direnv
-brew install the_silver_searcher
 brew install awscli
 brew install mysql
 brew install hiredis
@@ -86,6 +85,7 @@ brew install docker-machine-nfs
 brew install docker-compose
 brew install pwgen
 brew install kafka
+brew install ripgrep
 
 # Brew Fixes
 brew install openssl
