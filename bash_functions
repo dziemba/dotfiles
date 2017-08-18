@@ -81,6 +81,7 @@ function devtmp() {
 function docker-machine-create() {
   docker-machine rm -f default || true
   docker-machine create default \
+    --engine-opt experimental=true \
     -d virtualbox \
     --virtualbox-cpu-count 2 \
     --virtualbox-memory 6144 \
