@@ -85,6 +85,7 @@ function docker-machine-create() {
     -d virtualbox \
     --virtualbox-cpu-count 2 \
     --virtualbox-memory 6144 \
+    --virtualbox-disk-size 40000 \
     --virtualbox-no-share \
     --virtualbox-boot2docker-url \
       https://github.com/boot2docker/boot2docker/releases/download/v17.06.0-ce/boot2docker.iso
