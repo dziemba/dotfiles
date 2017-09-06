@@ -86,6 +86,7 @@ brew install docker-compose
 brew install pwgen
 brew install kafka
 brew install ripgrep
+brew install pdsh
 
 # Brew Fixes
 brew install openssl
