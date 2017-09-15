@@ -24,7 +24,7 @@ let g:syntastic_go_checkers = ['gofmt', 'golint', 'govet']
 let g:syntastic_python_checkers = ['python']
 let g:syntastic_mode_map = {
   \ 'mode': 'active',
-  \ 'passive_filetypes': ['scala', 'html']
+  \ 'passive_filetypes': ['scala', 'html', 'javascript']
   \ }
 
 let g:lightline = {
