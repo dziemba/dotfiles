@@ -26,6 +26,6 @@ export BUNDLE_JOBS="4"
 
 eval "$(rbenv init -)"
 eval "$(direnv hook bash)"
-eval "$(docker-machine env default)"
+eval "$(docker-machine env mobymac)"
 
 . ~/.dotfiles/bash_functions
