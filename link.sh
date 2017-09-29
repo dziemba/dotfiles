@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 cd $HOME
-ln -sf .dotfiles/bashrc .bashrc
+rm -f .bashrc
 ln -sf .dotfiles/bashrc .bash_profile
 ln -sf .dotfiles/gemrc .gemrc
 mkdir -p .config/htop
