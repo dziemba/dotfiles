@@ -39,3 +39,7 @@ up = pull --rebase --autostash
 
 [http]
 cookiefile = ~/.gitcookies
+
+[diff "shibboleth"]
+textconv = /Users/nikodziemba/dev/shibboleth-git/shibboleth-show.sh
+cachetextconv = false
