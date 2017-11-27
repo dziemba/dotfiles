@@ -17,6 +17,7 @@ brew tap homebrew/x11
 brew cask install xquartz
 brew cask install tuntap
 brew cask install java
+brew cask install java8
 brew cask install jce-unlimited-strength-policy
 
 brew install bash
