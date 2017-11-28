@@ -1,5 +1,5 @@
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\u@\h:\w$(__git_ps1 " (%s) ")\$ '
+export PS1='\h:\w$(__git_ps1 " (%s) ")\$ '
 
 export PROMPT_COMMAND='echo -ne "\033];${PWD##*/}\007"; ':"$PROMPT_COMMAND";
 
