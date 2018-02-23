@@ -20,6 +20,8 @@ export EDITOR="vim"
 export CLICOLOR=1
 export LSCOLORS="gxfxbEaEBxxEhEhBaDaCaD"
 
+export PDSH_SSH_ARGS_APPEND="-o StrictHostKeyChecking=no"
+
 export GOPATH="$HOME/dev/Go"
 export NODE_PATH="/usr/local/lib/node_modules"
 export BUNDLE_JOBS="4"
