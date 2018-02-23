@@ -11,8 +11,6 @@ brew update
 brew doctor || sleep 10
 brew upgrade
 
-brew tap homebrew/x11
-
 # required for some brew packages
 brew cask install xquartz
 brew cask install tuntap
