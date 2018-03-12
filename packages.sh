@@ -128,14 +128,6 @@ brew cask install font-source-code-pro-for-powerline
 
 brew cask cleanup
 
-# Node Packages
-npm install -g npm
-npm install -g bower
-npm install -g npm-check-updates
-npm install -g standard
-npm install -g standard-format
-npm install -g babel-eslint
-
 # Ruby
 rbenv install -s $(cat ruby-version)
 rbenv global $(cat ruby-version)
