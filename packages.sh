@@ -60,7 +60,6 @@ brew install s3cmd
 brew install wrk
 brew install phantomjs
 brew install llvm
-brew install heroku
 brew install ansible
 brew install markdown
 brew install exiftool
@@ -68,7 +67,6 @@ brew install protobuf
 brew install tidy-html5
 brew install gawk
 brew install graphviz
-brew install glide
 brew install apache-spark
 brew install binutils
 brew install aria2
@@ -76,8 +74,6 @@ brew install upx
 brew install tree
 brew install maven
 brew install yarn
-brew install memcached
-brew install rabbitmq
 brew install vault
 brew install docker
 brew install docker-machine
