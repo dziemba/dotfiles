@@ -26,6 +26,7 @@ brew install git
 brew install gist
 brew install gnu-sed
 brew install go
+brew install dep
 brew install htop
 brew install imagemagick
 brew install lame
