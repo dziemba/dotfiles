@@ -24,6 +24,7 @@ brew install findutils
 brew install bash-completion
 brew install git
 brew install gist
+brew install hub
 brew install gnu-sed
 brew install go
 brew install dep

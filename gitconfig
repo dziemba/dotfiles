@@ -36,6 +36,8 @@ ls = log --stat --decorate --graph
 allmine = rebase -i -x 'git amend --no-edit --reset-author'
 sh = show
 up = pull --rebase --autostash
+fresh = !git rh && git clean -xdf && git co master && git up && git st
+br = branch -v --sort=-committerdate
 
 [http]
 cookiefile = ~/.gitcookies
