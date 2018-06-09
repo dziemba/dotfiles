@@ -115,7 +115,6 @@ brew cask install gpgtools
 brew cask install inkscape
 brew cask install psequel
 brew cask install keepingyouawake
-brew cask install flux
 brew cask install slack
 brew cask install vagrant
 [ -d ~/anaconda3 ] || brew cask install anaconda
