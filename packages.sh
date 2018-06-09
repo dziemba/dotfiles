@@ -127,6 +127,7 @@ brew cask install sequel-pro
 brew tap caskroom/fonts
 brew cask install font-source-code-pro-for-powerline
 
+brew cleanup
 brew cask cleanup
 
 # Ruby
