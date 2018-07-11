@@ -85,6 +85,7 @@ brew install pwgen
 brew install kafka
 brew install ripgrep
 brew install pdsh
+brew install moreutils
 
 # Brew Fixes
 brew install openssl
