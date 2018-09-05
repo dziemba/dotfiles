@@ -11,6 +11,9 @@ brew update
 brew doctor || sleep 10
 brew upgrade
 
+brew tap caskroom/versions
+brew tap caskroom/fonts
+
 # required for some brew packages
 brew cask install \
   xquartz \
@@ -118,12 +121,9 @@ brew cask install \
   intellij-idea-ce \
   spectacle \
   kid3 \
-  sequel-pro
+  sequel-pro \
+  font-source-code-pro-for-powerline
 [ -d ~/anaconda3 ] || brew cask install anaconda
-
-# Brew fonts
-brew tap caskroom/fonts
-brew cask install font-source-code-pro-for-powerline
 
 # Brew cleanup
 brew prune
