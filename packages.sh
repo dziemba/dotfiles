@@ -122,7 +122,6 @@ brew cask install \
   kid3 \
   sequel-pro \
   font-source-code-pro-for-powerline
-[ -d ~/anaconda3 ] || brew cask install anaconda
 
 # Brew cleanup
 brew prune
