@@ -105,14 +105,13 @@ brew cask install \
   vlc \
   transmission \
   keka \
-  torbrowser \
+  tor-browser \
   rekordbox \
   skype \
-  google-drive \
   gimp \
   firefox \
   wireshark \
-  gpgtools \
+  gpg-suite \
   inkscape \
   psequel \
   keepingyouawake \
