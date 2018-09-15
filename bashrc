@@ -29,6 +29,6 @@ export BUNDLE_JOBS="4"
 export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
 eval "$(rbenv init -)"
 eval "$(direnv hook bash)"
-eval "$(docker-machine env default)"
+[ -d $HOME/dev/mobymac ] && eval "$(docker-machine env default)"
 
 . ~/.dotfiles/bash_functions
