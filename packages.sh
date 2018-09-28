@@ -13,15 +13,15 @@ brew upgrade
 
 brew tap caskroom/versions
 brew tap caskroom/fonts
+brew tap AdoptOpenJDK/openjdk
 
 # required for some brew packages
 brew cask install \
   xquartz \
-  tuntap \
-  java \
-  java8
+  tuntap
 
 brew install \
+  adoptopenjdk-openjdk8 \
   bash \
   coreutils \
   findutils \

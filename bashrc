@@ -26,7 +26,6 @@ export GOPATH="$HOME/dev/Go"
 export NODE_PATH="/usr/local/lib/node_modules"
 export BUNDLE_JOBS="4"
 
-export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
 eval "$(rbenv init -)"
 eval "$(direnv hook bash)"
 [ -d $HOME/dev/mobymac ] && eval "$(docker-machine env default)"
