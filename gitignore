@@ -8,3 +8,4 @@ nogit.*
 /.ivy2/
 /.oracle_jre_usage/
 /.sbt/
+/.idea/
