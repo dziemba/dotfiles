@@ -41,11 +41,9 @@ brew install \
   openssl \
   openvpn \
   pngcrush \
-  rbenv \
   rdesktop \
   rename \
   ruby \
-  ruby-build \
   sane-backends \
   unrar \
   vim \
@@ -127,23 +125,6 @@ brew cask install \
 brew prune
 brew cleanup
 brew doctor || sleep 10
-
-# Ruby
-rbenv install -s $(cat ruby-version)
-rbenv global $(cat ruby-version)
-eval "$(rbenv init -)"
-gem update --system
-
-# Ruby Packages (with executables only, use bundler otherwise!)
-gem install \
-  bundler \
-  rails \
-  rake \
-  rubocop \
-  pry \
-  benchmark-ips
-
-gem update
 
 # Postinstall
 brew services start docker-machine

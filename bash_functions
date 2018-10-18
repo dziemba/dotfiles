@@ -4,12 +4,6 @@ alias ag="rg -S"
 alias caca="caffeinate -sd"
 
 alias be="bundle exec"
-alias betest="RAILS_ENV=test bundle exec"
-alias ber="bundle exec rake"
-alias beguard="bundle exec guard -c"
-alias bespec="bundle exec rspec"
-alias sspec="spring rspec"
-
 alias nr="npm run"
 
 alias dropbox="cd $HOME/Dropbox"
@@ -32,25 +26,6 @@ function psk() {
       kill $PID
     done
   fi
-}
-
-function rbenv-setup()
-{
-  rbenv install -s
-  rbenv local
-  gem update --system
-  gem install bundler
-  bundle
-}
-
-function rails-remigrate()
-{
-  ber db:drop
-  git co master -- db/schema.rb
-  git co master -- db/structure.sql
-  ber db:setup
-  ber db:migrate
-  betest rake db:drop db:setup
 }
 
 function loop() {

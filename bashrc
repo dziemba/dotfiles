@@ -3,7 +3,7 @@ export PS1='\h:\w$(__git_ps1 " (%s) ")\$ '
 
 export PROMPT_COMMAND='echo -ne "\033];${PWD##*/}\007"; ':"$PROMPT_COMMAND";
 
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/ruby/bin
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin
 unset HISTFILE
 
 export LC_ALL=en_US.UTF-8
@@ -26,7 +26,6 @@ export GOPATH="$HOME/dev/Go"
 export NODE_PATH="/usr/local/lib/node_modules"
 export BUNDLE_JOBS="4"
 
-eval "$(rbenv init -)"
 eval "$(direnv hook bash)"
 [ -d $HOME/dev/mobymac ] && eval "$(docker-machine env default)"
 
