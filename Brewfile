@@ -2,9 +2,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/services'
-tap 'AdoptOpenJDK/openjdk'
 
-brew 'adoptopenjdk-openjdk8'
 brew 'ansible'
 brew 'apache-spark'
 brew 'aria2'
@@ -70,6 +68,8 @@ brew 'wine', args: ['force-bottle']
 brew 'wrk'
 brew 'yarn'
 
+cask 'adoptopenjdk'
+cask 'adoptopenjdk8'
 cask 'dropbox'
 cask 'firefox'
 cask 'font-source-code-pro-for-powerline'
