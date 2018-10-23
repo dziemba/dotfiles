@@ -12,5 +12,4 @@ ln -sf .dotfiles/vimrc .vimrc
 rm -rf .vim
 ln -sf .dotfiles/vim .vim
 
-mkdir -p /usr/local/etc
 ln -sf $HOME/.dotfiles/iterm2.plist $HOME/Library/Preferences/com.googlecode.iterm2.plist
