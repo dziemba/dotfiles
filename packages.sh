@@ -2,6 +2,7 @@
 
 if [ "$(xcode-select -p)" != "/Library/Developer/CommandLineTools" ]; then
   xcode-select --install
+  exit 1
 fi
 
 if [ ! -f /usr/local/bin/brew ]; then
