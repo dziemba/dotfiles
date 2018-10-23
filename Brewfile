@@ -3,6 +3,10 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/services'
 
+# Some brews need Java, install it first
+cask 'adoptopenjdk'
+cask 'adoptopenjdk8'
+
 brew 'ansible'
 brew 'aria2'
 brew 'awscli'
@@ -64,8 +68,6 @@ brew 'wine', args: ['force-bottle']
 brew 'wrk'
 brew 'yarn'
 
-cask 'adoptopenjdk'
-cask 'adoptopenjdk8'
 cask 'dropbox'
 cask 'firefox'
 cask 'font-source-code-pro-for-powerline'
