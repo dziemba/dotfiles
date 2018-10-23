@@ -4,7 +4,6 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/services'
 
 brew 'ansible'
-brew 'apache-spark'
 brew 'aria2'
 brew 'awscli'
 brew 'bash'
