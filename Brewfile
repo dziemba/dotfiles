@@ -67,6 +67,7 @@ brew 'wine', args: ['force-bottle']
 brew 'wrk'
 brew 'yarn'
 
+cask 'ableton-live-suite'
 cask 'dropbox'
 cask 'firefox'
 cask 'font-source-code-pro-for-powerline'
