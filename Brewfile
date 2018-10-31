@@ -1,6 +1,5 @@
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
 tap 'homebrew/services'
 tap 'AdoptOpenJDK/homebrew-openjdk'
 
