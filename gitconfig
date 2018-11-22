@@ -43,6 +43,9 @@ back = reset HEAD^
 [http]
 cookiefile = ~/.gitcookies
 
+[diff]
+renameLimit = 8192
+
 [diff "shibboleth"]
 textconv = ~/dev/shibboleth-git/shibboleth-show.sh
 cachetextconv = false
