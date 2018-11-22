@@ -4,6 +4,7 @@
 .envrc
 *.nogit
 nogit.*
+nohup.out
 
 /.ivy2/
 /.oracle_jre_usage/
