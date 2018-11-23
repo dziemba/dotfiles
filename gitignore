@@ -5,6 +5,7 @@
 *.nogit
 nogit.*
 nohup.out
+.netrc
 
 /.ivy2/
 /.oracle_jre_usage/
