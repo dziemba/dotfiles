@@ -13,6 +13,10 @@ alias godev="cd $GOPATH/src/github.com"
 alias scan="scanimage --mode Color --resolution 300 |convert - Scan\$(date +%s).jpg"
 alias elsterformular="wine 'c:/Program Files/ElsterFormular/bin/pica.exe'"
 
+function loadkeys() {
+  for K in ~/dev/keys/*; do source $K; done
+}
+
 function psk() {
   P=$(ps ux |grep $1 |grep -v " grep")
   echo "$P"
