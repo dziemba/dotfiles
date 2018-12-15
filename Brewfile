@@ -22,6 +22,7 @@ brew 'docker-machine', restart_service: true
 brew 'docker-machine-nfs'
 brew 'exiftool'
 brew 'findutils'
+brew 'flac'
 brew 'gawk'
 brew 'gist'
 brew 'git'
