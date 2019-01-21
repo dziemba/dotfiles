@@ -16,8 +16,6 @@ brew bundle install
 brew upgrade
 
 brew bundle cleanup --zap --force
-brew cleanup
-brew prune
 
 brew doctor || sleep 10
 
