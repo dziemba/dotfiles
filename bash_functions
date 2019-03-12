@@ -1,14 +1,10 @@
 alias l="ls -alh"
 alias psg="ps aux |grep"
 alias ag="rg -S"
-alias caca="caffeinate -sd"
 
 alias be="bundle exec"
-alias nr="npm run"
 
-alias dropbox="cd $HOME/Dropbox"
 alias dev="cd $HOME/dev"
-alias godev="cd $GOPATH/src/github.com"
 
 alias scan="scanimage --mode Color --resolution 300 |convert - Scan\$(date +%s).jpg"
 alias elsterformular="wine 'c:/Program Files/ElsterFormular/bin/pica.exe'"
