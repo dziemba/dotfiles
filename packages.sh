@@ -14,6 +14,7 @@ set -x
 brew update
 brew bundle install
 brew upgrade
+brew cask upgrade
 
 brew bundle cleanup --zap --force
 
