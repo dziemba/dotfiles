@@ -20,5 +20,8 @@ brew bundle cleanup --zap --force
 
 brew doctor || sleep 10
 
-sudo chown root /usr/local/bin/htop
-sudo chmod +s /usr/local/bin/htop
+HTOP="$(greadlink -f /usr/local/bin/htop)"
+if [ "$(stat -f '%u %p' "$HTOP")" != "0 106755" ]; then
+  sudo chown root "$HTOP"
+  sudo chmod 106755 "$HTOP"
+fi
