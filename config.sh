@@ -1,8 +1,5 @@
 #!/bin/bash -xe
 
-# Disable the sound effects on boot
-sudo nvram SystemAudioVolume=" "
-
 # Finder
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 defaults write com.apple.finder ShowStatusBar -bool true
