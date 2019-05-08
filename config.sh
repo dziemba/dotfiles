@@ -20,6 +20,12 @@ defaults write org.m0k.transmission WarningDonate -bool false
 defaults write org.m0k.transmission WarningLegal -bool false
 
 # Kernel limits
-sudo sysctl -w kern.ipc.somaxconn=2048
-sudo sysctl -w kern.maxfiles=12288
-sudo sysctl -w kern.maxfilesperproc=10240
+set_sysctl() {
+  if [ "$(sysctl -n "$1")" != "$2" ]; then
+    sudo sysctl -w "$1=$2"
+  fi
+}
+
+set_sysctl kern.ipc.somaxconn 2048
+set_sysctl kern.maxfiles 12288
+set_sysctl kern.maxfilesperproc 10240
