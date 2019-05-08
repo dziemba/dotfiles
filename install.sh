@@ -1,11 +1,11 @@
 #!/bin/bash -e
 
-cd $HOME/.dotfiles
+cd "$HOME/.dotfiles"
 
 if [ ! -e .hostname_lock ]; then
   echo -n "Enter hostname: "
-  read HOSTNAME
-  sudo scutil --set HostName $HOSTNAME
+  read -r HOSTNAME
+  sudo scutil --set HostName "$HOSTNAME"
   echo
   touch .hostname_lock
 fi

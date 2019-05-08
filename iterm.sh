@@ -9,12 +9,12 @@ plist="$HOME/Library/Preferences/com.googlecode.iterm2.plist"
 
 case $1 in
   export)
-    plutil -convert xml1 $plist
-    cp $plist iterm2.plist
+    plutil -convert xml1 "$plist"
+    cp "$plist" iterm2.plist
     ;;
   import)
-    cp iterm2.plist $plist
-    plutil -convert binary1 $plist
+    cp iterm2.plist "$plist"
+    plutil -convert binary1 "$plist"
     ;;
   *)
     echo "Usage: $0 (import|export)"

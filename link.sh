@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-cd $HOME
+cd "$HOME"
 rm -f .bashrc
 ln -sf .dotfiles/bashrc .bash_profile
 ln -sf .dotfiles/gemrc .gemrc
@@ -12,4 +12,4 @@ ln -sf .dotfiles/vimrc .vimrc
 rm -rf .vim
 ln -sf .dotfiles/vim .vim
 
-ln -sf $HOME/.dotfiles/iterm2.plist $HOME/Library/Preferences/com.googlecode.iterm2.plist
+ln -sf "$HOME/.dotfiles/iterm2.plist" "$HOME/Library/Preferences/com.googlecode.iterm2.plist"
