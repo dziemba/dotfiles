@@ -18,14 +18,3 @@ defaults write org.m0k.transmission DownloadAsk -bool false
 defaults write org.m0k.transmission DeleteOriginalTorrent -bool true
 defaults write org.m0k.transmission WarningDonate -bool false
 defaults write org.m0k.transmission WarningLegal -bool false
-
-# Kernel limits
-set_sysctl() {
-  if [ "$(sysctl -n "$1")" != "$2" ]; then
-    sudo sysctl -w "$1=$2"
-  fi
-}
-
-set_sysctl kern.ipc.somaxconn 2048
-set_sysctl kern.maxfiles 12288
-set_sysctl kern.maxfilesperproc 10240
