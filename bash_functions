@@ -57,3 +57,10 @@ function devtmp() {
 function docker-killall() {
   docker ps --format {{.ID}} |xargs -n1 docker kill
 }
+
+function hardwax-tabs() {
+  for ID in $(pbpaste |grep -oE '[0-9]{5}' |sort |uniq); do
+    open "https://hardwax.com/$ID/"
+    sleep 1
+  done
+}
