@@ -1,10 +1,11 @@
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/services'
-tap 'AdoptOpenJDK/homebrew-openjdk'
+tap 'adoptopenjdk/openjdk'
 
 # Some brews need Java, install it first
 cask 'adoptopenjdk'
+cask 'adoptopenjdk8'
 cask 'adoptopenjdk/openjdk/adoptopenjdk8'
 
 brew 'ansible'
