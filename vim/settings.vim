@@ -20,6 +20,7 @@ let vim_markdown_preview_hotkey='<C-m>'
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+let g:syntastic_sh_shellcheck_args="-x"
 let g:syntastic_go_checkers = ['gofmt', 'golint', 'govet']
 let g:syntastic_python_checkers = ['python']
 let g:syntastic_mode_map = {
