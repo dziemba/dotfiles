@@ -64,3 +64,10 @@ function hardwax-tabs() {
     sleep 1
   done
 }
+
+function decksde-tabs() {
+  for ID in $(pbpaste |grep -oE '\[[0-9a-z]{3}-[0-9a-z]{2}\]' |tr -d [] |sort |uniq); do
+    open "https://www.decks.de/decks/workfloor/lists/findTrack.php?code=$ID"
+    sleep 10 # wait for page to load, the redirect is stateful :/
+  done
+}
