@@ -25,6 +25,7 @@ cm = commit -m
 amend = commit --amend
 fixup = commit --amend --no-edit
 pr = pull --rebase
+puf = push --force-with-lease
 rom = !git fetch --all && git rebase origin/master
 rc = rebase --continue
 rs = rebase --skip
