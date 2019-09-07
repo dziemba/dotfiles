@@ -7,7 +7,6 @@ alias be="bundle exec"
 alias dev="cd $HOME/dev"
 
 alias scan="scanimage --mode Color --resolution 300 |convert - Scan\$(date +%s).jpg"
-alias elsterformular="wine 'c:/Program Files/ElsterFormular/bin/pica.exe'"
 
 function loadkeys() {
   for K in ~/dev/keys/*; do source $K; done

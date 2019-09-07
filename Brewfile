@@ -72,7 +72,6 @@ brew 'vault'
 brew 'vim'
 brew 'watch'
 brew 'wget'
-brew 'wine', args: ['force-bottle']
 brew 'wrk'
 brew 'yarn'
 
