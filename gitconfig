@@ -40,6 +40,7 @@ up = pull --rebase --autostash
 fresh = !git rh && git clean -xdf && git co master && git up && git st
 br = branch -v --sort=-committerdate
 back = reset HEAD^
+cln = clean -fdxe .idea
 
 [http]
 cookiefile = ~/.gitcookies
