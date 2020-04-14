@@ -41,6 +41,8 @@ fresh = !git rh && git clean -xdf && git co master && git up && git st
 br = branch -v --sort=-committerdate
 back = reset HEAD^
 cln = clean -fdxe .idea
+ma = !git co master && git up
+cb = co -b
 
 [http]
 cookiefile = ~/.gitcookies
