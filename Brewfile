@@ -21,6 +21,7 @@ brew 'docker-compose'
 brew 'docker-machine', restart_service: true
 brew 'docker-machine-nfs'
 brew 'exiftool'
+brew 'ffmpeg'
 brew 'findutils'
 brew 'flac'
 brew 'gawk'
