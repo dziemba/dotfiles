@@ -43,6 +43,7 @@ back = reset HEAD^
 cln = clean -fdxe .idea
 ma = !git co master && git up
 cb = co -b
+mb = !git ma && git cb
 
 [http]
 cookiefile = ~/.gitcookies
