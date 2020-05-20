@@ -35,10 +35,6 @@ function loop() {
   done
 }
 
-function wtc() {
-  curl whatthecommit.com/index.txt
-}
-
 function dot-update() {
   pushd ~/.dotfiles
   git up
@@ -51,17 +47,6 @@ function devtmp() {
   rm -rf tmp
   mkdir tmp
   cd tmp
-}
-
-function docker-killall() {
-  docker ps --format {{.ID}} |xargs -n1 docker kill
-}
-
-function hardwax-tabs() {
-  for ID in $(pbpaste |grep -oE '[0-9]{5}' |sort |uniq); do
-    open "https://hardwax.com/$ID/"
-    sleep 1
-  done
 }
 
 function decksde-tabs() {
