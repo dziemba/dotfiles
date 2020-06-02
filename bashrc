@@ -28,6 +28,9 @@ export BUNDLE_JOBS="4"
 
 export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 eval "$(direnv hook bash)"
-[ -d $HOME/dev/mobymac ] && eval "$(docker-machine env default)"
 
 . ~/.dotfiles/bash_functions
+
+# mobymac-begin
+export DOCKER_HOST='tcp://192.168.42.2:2376'
+# mobymac-end
