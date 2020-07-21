@@ -6,6 +6,8 @@ alias be="bundle exec"
 
 alias dev="cd $HOME/dev"
 
+alias makepr="hub pull-request --no-edit"
+
 alias scan="scanimage --mode Color --resolution 300 |convert - Scan\$(date +%s).jpg"
 
 function loadkeys() {
