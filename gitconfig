@@ -14,6 +14,7 @@ relativepaths = false
 [alias]
 aa = add -A
 ap = add -p
+fa = !git add -A && git commit --amend --no-edit
 fs = !git fetch --all && git status
 st = status -s -b
 co = checkout
