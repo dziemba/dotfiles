@@ -14,6 +14,10 @@ function loadkeys() {
   for K in ~/dev/keys/*; do source $K; done
 }
 
+function idea {
+  open -a "$(ls -dt /Applications/IntelliJ\ IDEA*|head -1)" .
+}
+
 function psk() {
   P=$(ps ux |grep $1 |grep -v " grep")
   echo "$P"
