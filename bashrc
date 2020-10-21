@@ -30,7 +30,3 @@ export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 eval "$(direnv hook bash)"
 
 . ~/.dotfiles/bash_functions
-
-# mobymac-begin
-export DOCKER_HOST='tcp://192.168.42.2:2376'
-# mobymac-end
