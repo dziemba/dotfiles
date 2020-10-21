@@ -69,6 +69,7 @@ brew 'wget'
 brew 'wrk'
 
 cask 'ableton-live-suite'
+cask 'docker'
 cask 'dropbox'
 cask 'firefox'
 cask 'font-source-code-pro-for-powerline'
