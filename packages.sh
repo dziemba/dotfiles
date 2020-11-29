@@ -13,10 +13,9 @@ set -x
 
 brew update
 brew bundle install
+brew bundle cleanup --zap --force
 brew upgrade
 brew upgrade --cask
-
-brew bundle cleanup --zap --force
 
 brew doctor || sleep 10
 
