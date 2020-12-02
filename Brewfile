@@ -1,4 +1,5 @@
 tap 'homebrew/cask'
+tap 'homebrew/cask-drivers'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/services'
 tap 'adoptopenjdk/openjdk'
@@ -81,3 +82,7 @@ cask 'transmission'
 cask 'tunnelblick'
 cask 'visualvm'
 cask 'vlc'
+
+# Raspi
+cask 'gcc-arm-embedded'
+cask 'silicon-labs-vcp-driver'
