@@ -6,7 +6,6 @@
 nogit.*
 nohup.out
 .netrc
-tags
 
 /.ivy2/
 /.oracle_jre_usage/

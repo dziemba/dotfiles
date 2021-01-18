@@ -14,9 +14,6 @@ Bundle "itchyny/lightline.vim"
 " Git
 Bundle "tpope/vim-fugitive"
 
-" Ctags
-Bundle "ludovicchabant/vim-gutentags"
-
 " Languages / Syntax
 Bundle "scrooloose/syntastic"
 Bundle "fatih/vim-go"
