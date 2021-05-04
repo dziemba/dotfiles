@@ -2,6 +2,7 @@
 
 cd "$HOME"
 rm -f .bashrc
+ln -sf .dotfiles/bashrc .bashrc
 ln -sf .dotfiles/bashrc .bash_profile
 ln -sf .dotfiles/gemrc .gemrc
 mkdir -p .config/htop
