@@ -76,7 +76,6 @@ cask 'keepingyouawake'
 cask 'obs'
 cask 'psequel'
 cask 'sequel-pro'
-cask 'silicon-labs-vcp-driver' # Raspi USB-Serial adapter
 cask 'slack'
 cask 'spectacle'
 cask 'sysex-librarian'
