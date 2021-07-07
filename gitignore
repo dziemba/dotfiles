@@ -11,3 +11,5 @@ nohup.out
 /.oracle_jre_usage/
 /.sbt/
 /.idea/
+/.vscode/
+/.metals/
