@@ -1,12 +1,12 @@
 #!/bin/bash -e
 
-if [ "$(xcode-select -p)" != "/Library/Developer/CommandLineTools" ]; then
+if [[ ! "$(xcode-select -p)" =~ ^/ ]]; then
   xcode-select --install
   exit 1
 fi
 
 if [ ! -f /usr/local/bin/brew ]; then
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 set -x
