@@ -10,6 +10,11 @@ alias makepr="hub pull-request --no-edit"
 
 alias scan="scanimage --mode Color --resolution 300 |convert - Scan\$(date +%s).jpg"
 
+function jversion() {
+  export JAVA_HOME="$(/usr/libexec/java_home -v "$1")"
+  java -version
+}
+
 function loadkeys() {
   for K in ~/dev/keys/*; do source $K; done
 }
