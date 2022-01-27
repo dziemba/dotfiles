@@ -29,5 +29,3 @@ export BUNDLE_JOBS="4"
 eval "$(direnv hook bash)"
 
 . ~/.dotfiles/bash_functions
-
-[ -d "$HOME/.sc-tools" ] && source "$HOME/.sc-tools/dotfiles/env.bash" #sc-tools-setup
