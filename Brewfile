@@ -65,6 +65,7 @@ brew 'wget'
 brew 'wrk'
 brew 'zsh'
 
+cask 'clion'
 cask 'docker'
 cask 'dropbox'
 cask 'firefox'
