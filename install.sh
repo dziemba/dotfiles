@@ -1,5 +1,8 @@
 #!/bin/bash -e
 
+# for bootstrapping
+export PATH="/opt/homebrew/bin:$PATH"
+
 cd "$HOME/.dotfiles"
 
 if [ ! -e .hostname_lock ]; then
