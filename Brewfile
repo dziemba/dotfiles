@@ -46,6 +46,7 @@ brew 'svn'
 brew 'vim'
 brew 'watch'
 brew 'wget'
+brew 'youtube-dl'
 
 cask 'clion'
 cask 'docker'
