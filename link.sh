@@ -12,3 +12,5 @@ ln -sf .dotfiles/gitignore .gitignore_global
 ln -sf .dotfiles/vimrc .vimrc
 rm -rf .vim
 ln -sf .dotfiles/vim .vim
+mkdir -p .ssh
+ln -sf ../.dotfiles/sshconfig .ssh/config
