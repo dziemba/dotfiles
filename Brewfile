@@ -1,8 +1,3 @@
-tap 'homebrew/cask'
-tap 'homebrew/cask-drivers'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/services'
-
 brew 'bash'
 brew 'bash-completion'
 brew 'binutils'
