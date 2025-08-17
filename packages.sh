@@ -12,7 +12,7 @@ fi
 set -x
 
 brew update
-brew bundle install --no-lock
+brew bundle install
 brew bundle cleanup --zap --force
 brew upgrade
 brew upgrade --cask
