@@ -43,6 +43,7 @@ brew 'watch'
 brew 'wget'
 brew 'yt-dlp'
 
+cask 'blender'
 cask 'clion'
 cask 'docker'
 cask 'dropbox'
